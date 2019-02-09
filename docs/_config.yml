@@ -12,7 +12,7 @@ show_excerpts: false         # show article previews on the home page instead of
 date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
 dark_theme: true             # enables dark mode
 dark_header: false           # uses dark header whether dark_theme is enabled or not
-minimal_theme: true          # radically minimalistic theme
+minimal_theme: false         # radically minimalistic theme
 
 navigation:                  # show navigation links in the header	
   - index.md	
