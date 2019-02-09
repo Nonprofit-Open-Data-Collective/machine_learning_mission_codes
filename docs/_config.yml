@@ -11,8 +11,8 @@ excerpt_separator: "\n\n\n"  # indicates the end of the excerpt by two blank lin
 show_excerpts: false         # show article previews on the home page instead of headlines
 date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
 dark_theme: true             # enables dark mode
-dark_header: false           # uses dark header whether dark_theme is enabled or not
-minimal_theme: true          # radically minimalistic theme
+dark_header: true           # uses dark header whether dark_theme is enabled or not
+minimal_theme: false          # radically minimalistic theme
 
 navigation:                  # show navigation links in the header	
   - index.html	
