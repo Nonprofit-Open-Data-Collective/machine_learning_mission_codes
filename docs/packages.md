@@ -3,6 +3,16 @@ title: "R Packages"
 ---
 
 
-Some info about packages used...
+We used the following R packages for analysis:
 
-https://quanteda.io/index.html
+**quanteda**: Quantitative Analysis of Textual Data [ [documentation](https://quanteda.io/index.html) ]
+
+
+
+
+
+## Installing Packages
+
+```r
+install.packages( c("quanteda") )
+```
