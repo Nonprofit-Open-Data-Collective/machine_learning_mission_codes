@@ -1,5 +1,5 @@
 ---
-title: "Mission Taxonomies"
+title: "Taxonomies"
 ---
 
 List info on taxonomies here...
