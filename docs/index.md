@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Tutorials
+title: Tutorial
 ---
 
 ## Creating Machine Learning Classifiers for Nonprofit Mission Statements
