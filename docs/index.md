@@ -1,9 +1,11 @@
 ---
 layout: home
-title: Nonprofit Mission Classifiers
+title: home
 ---
 
-# Creating Classifiers for Nonprofit Mission Statements
+# Nonprofit Mission Classifiers
+
+> Creating Machine Learning Classifiers for Nonprofit Mission Statements
 
 This is an tutorial about using mission and program service accomplishment text to predict mission activity codes such as the NTEE.
 
