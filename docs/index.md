@@ -1,3 +1,7 @@
+---
+title: Nonprofit Mission Classifiers
+---
+
 # Creating Classifiers for Nonprofit Mission Statements
 
 This is an tutorial about using mission and program service accomplishment text to predict mission activity codes such as the NTEE.
