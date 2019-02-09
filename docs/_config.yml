@@ -16,9 +16,8 @@ minimal_theme: false          # radically minimalistic theme
 
 navigation:                  # show navigation links in the header	
   - index.html	
-  - https://quanteda.io/index.html
-  # - markdown.md	
-  # - about.md
+  - packages.md	
+  - about.md
 
 
 icons:                       # show icons in the header, for all possible icons see http://fontawesome.io/icons/
