@@ -15,9 +15,9 @@ dark_header: false           # uses dark header whether dark_theme is enabled or
 minimal_theme: false         # radically minimalistic theme
 
 navigation:                  # show navigation links in the header	
-  - index.md	
-  - data.md
+  - index.md
   - taxonomies.md
+  - data.md
   - packages.md	
 
 
