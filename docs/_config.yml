@@ -17,6 +17,7 @@ minimal_theme: true          # radically minimalistic theme
 navigation:                  # show navigation links in the header	
   - index.md	
   - data.md
+  - taxonomies.md
   - packages.md	
 
 
