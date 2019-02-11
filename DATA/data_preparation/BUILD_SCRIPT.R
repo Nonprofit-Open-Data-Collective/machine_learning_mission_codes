@@ -4,21 +4,21 @@ library( tidyr )
 setwd( "C:/Users/jdlecy/Dropbox/04 - PAPERS/01 - In Progress/25 - USC Mission Taxonomies/USC Mission Paper/Data and Analysis/Sample Framework" )
 
 
-source("build_program_and_mission_tables.R")
+# source("build_program_and_mission_tables.R")
+source( "https://raw.githubusercontent.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/master/DATA/data_preparation/build_program_and_mission_tables.R" )
 source( "https://raw.githubusercontent.com/Nonprofit-Open-Data-Collective/irs-990-efiler-database/master/BUILD_SCRIPTS/build_efile_database_functions.R" )
 
-index <- readRDS( "EfileSampleIndex.rds" )
-
+# index <- readRDS( "EfileSampleIndex.rds" )
+index <- readRDS(gzcon(url( "https://github.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/blob/master/DATA/data_preparation/EfileIndex.rds?raw=true" )))
 
 
 dd <- buildFUNCTION( doc=doc1, url=url )
 dd <- as.data.frame( dd, stringsAsFactors=F )
 
-names(dd)
+names( dd )
 
 
 # devtools::install_github('ultinomics/xmltools')
-
 library( xmltools )
 library( purrr )
 library( xml2 )
@@ -76,7 +76,7 @@ prog3 <- select( dd, F9_03_PC_PROG_3_ACTIVITY_CODE,
 #                     F9_03_PC_PROG_4_DESCRIPTION, 
 #                     F9_03_PC_PROG_4_EXPENSE, 
 #                     F9_03_PC_PROG_4_GRANTS,
-                     F9_03_PC_PROG_4_REVENUE )
+#                     F9_03_PC_PROG_4_REVENUE )
 
 
 
@@ -169,5 +169,56 @@ c <- b[ which( names(b) == "ProgSrvcAccomActyOtherGrp" ) ]
 bind_rows( c )
 
 
+
+
+######################################
+
+
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+library( XML )
+library( xml2 )
+library( jsonlite )
+
+
+url <- "https://s3.amazonaws.com/irs-form-990/201123199349203472_public.xml"
+url <- "https://s3.amazonaws.com/irs-form-990/201820249349200607_public.xml"
+doc <- read_xml( url )
+xml_ns_strip( doc )
+
+doc <- xmlParse( doc )
+a <- xmlToList(doc)
+str( a )
+
+# all nodes in Return Data main form (not schedules)
+b <- a[["ReturnData"]][["IRS990EZ"]] #[["ProgSrvcAccomActyOtherGrp"]]
+names(b)
+
+which( names(b) == "ProgramServiceAccomplishment" )
+
+c <- b[ which( names(b) == "ProgramServiceAccomplishment" ) ]
+
+bind_rows( c )
+
+
+
+
+url <- "https://s3.amazonaws.com/irs-form-990/201511769349300811_public.xml"
+doc <- read_xml( url )
+xml_ns_strip( doc )
+
+doc <- xmlParse( doc )
+a <- xmlToList(doc)
+str( a )
+
+# all nodes in Return Data main form (not schedules)
+b <- a[["ReturnData"]][["IRS990"]] #[["ProgSrvcAccomActyOtherGrp"]]
+names(b)
+
+which( names(b) == "ProgramServiceAccomplishment" )
+
+c <- b[ which( names(b) == "ProgramServiceAccomplishment" ) ]
+
+bind_rows( c )
 
 
