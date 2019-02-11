@@ -14,7 +14,7 @@ We used the following R packages for analysis:
 ## Installing Packages
 
 ```r
-install.packages( c("quanteda", "purrr", "xml2", "dplyr", "XML", "jsonlite" ) )
+install.packages( c( "quanteda", "purrr", "xml2", "dplyr", "XML", "jsonlite" ) )
 devtools::install_github( 'ultinomics/xmltools' )
 library( xmltools )
 library( purrr )
