@@ -20,4 +20,6 @@ library( xmltools )
 library( purrr )
 library( xml2 )
 library( dplyr )
+library( XML )
+library( jsonlite )
 ```
