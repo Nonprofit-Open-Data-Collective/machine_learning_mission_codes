@@ -4,20 +4,24 @@ title: "About"
 
 This project represents a collaboration between:
 
-Jesse Lecy
-Associate Professor, Arizona State Univ.
-Nonprofit Studies and Data Science
+**Jesse Lecy**   
+Associate Professor, Arizona State Univ.  
+Nonprofit Studies and Data Science  
 
-Eric Van Holm
-Assistant Professor, Univ. of New Orleans
-Entrepreneurship and Public Policy
+**Eric Van Holm**  
+Assistant Professor, Univ. of New Orleans  
+Entrepreneurship and Public Policy  
 
-Francisco Santamarina
-PhD Student, Univ. of Washington
-Data Analytics & Nonprofit Capacity
+**Francisco Santamarina**  
+PhD Student, Univ. of Washington  
+Data Analytics & Nonprofit Capacity  
 
-Nathan Grasse...Ji Ma...Pamela Paxton...etc
-
+Nathan Grasse...  
+  
+Ji Ma...  
+  
+Pamela Paxton...  
+  
 
 ------
 
