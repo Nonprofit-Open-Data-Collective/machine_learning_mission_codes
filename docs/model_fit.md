@@ -65,3 +65,6 @@ The F1 Score is the 2 * (precision*recall) / (precision+recall) . It is also cal
 
 [cite](https://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)
 
+## Interpretation
+
+asdf
