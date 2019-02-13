@@ -1,4 +1,5 @@
 ---
+layout: home
 title: "Assessing Model Fit"
 ---
 
@@ -6,6 +7,7 @@ title: "Assessing Model Fit"
 ## Metrics
 
 Some commmon metrics:
+
 ![](assets/images/sensitivity.png)
 ![](assets/images/specificity.png)
 ![](assets/images/precision.png)
