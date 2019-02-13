@@ -16,7 +16,21 @@ A tutorial about using mission and program service accomplishment text to predic
 
 [cite](https://classeval.wordpress.com/introduction/basic-evaluation-measures/)
 
-
+| METRIC                 |  FORMULA                     |
+|------------------------|------------------------------|
+|  Sensitivity           | ![](assets/images/sens.png)  |
+|  Specificity           | ![](assets/images/spec.png)  |
+|  Pos Pred Value        |  |
+|  Neg Pred Value        |  |
+|  Precision             | ![](assets/images/prec.png)  |
+|  Recall                | ![](assets/images/sens.png)  |
+|  F1                    | ![](assets/images/f1.png)  |
+|  Prevalence            |   |
+|  Detection Rate        | ![](assets/images/file.png)  |
+|  Detection Prevalence  | ![](assets/images/file.png)  |
+|  Balanced Accuracy     | ![](assets/images/file.png)  |
+|  Accuracy              | ![](assets/images/acc.png)  |
+|  Error                 | ![](assets/images/err.png)  |
 
 ```
 ## Confusion Matrix and Statistics
