@@ -19,7 +19,7 @@ navigation:                  # show navigation links in the header
   - taxonomies.md
   - data.md
   - packages.md	
-  - model_fit.md
+  - accuracy.md
 
 
 
