@@ -20,6 +20,7 @@ navigation:                  # show navigation links in the header
   - data.md
   - packages.md	
   - accuracy.md
+  - about.md
 
 
 
