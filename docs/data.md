@@ -14,7 +14,7 @@ Text-based data describing nonprofit activities.
 
 * Nonprofit missions on IRS forms (e-file database)
 * Program service accomplishments (e-file database)
-* We
+* Website data? 
 
 # Available Activity Codes
 
