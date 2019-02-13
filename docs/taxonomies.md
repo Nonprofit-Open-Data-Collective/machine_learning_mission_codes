@@ -5,9 +5,26 @@ title: "Taxonomies"
 
 List info on taxonomies here...
 
-NTEE codes
+**NTEE Codes**
 
-ICNPO Codes
+Major Groups:
+
+* I. Arts, Culture, and Humanities - A
+* II. Education - B
+* III. Environment and Animals - C, D
+* IV. Health - E, F, G, H
+* V. Human Services - I, J, K, L, M, N, O, P
+* VI. International, Foreign Affairs - Q
+* VII. Public, Societal Benefit - R, S, T, U, V, W
+* VIII. Religion Related - X
+* IX. Mutual/Membership Benefit - Y
+* X. Unknown, Unclassified - Z
+
+
+**ICNPO Codes**
+
+
+**IRS 1023-EZ Purpose Codes**
 
 Instructions for completing IRS 1023-EZ mission codes pp 6-7 [FORM](https://www.irs.gov/pub/irs-pdf/i1023ez.pdf)
 
@@ -19,11 +36,12 @@ Instructions for completing IRS 1023-EZ mission codes pp 6-7 [FORM](https://www.
 * Ameteur Sports Purpose [yes/no]
 * Prevent Cruelty to Animals and/or Children [yes/no]
 
-Guidestar Codes
 
-Foundation Center Codes
+Guidestar Codes? 
 
-Other mission taxonomies
+Foundation Center Codes? 
+
+Other mission taxonomies? 
 
 
 
