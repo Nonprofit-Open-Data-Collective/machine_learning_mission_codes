@@ -8,8 +8,17 @@ title: Methods
 A tutorial about using mission and program service accomplishment text to predict mission activity codes such as the NTEE.
 
 
+## Interpretation
 
-## Progress
+![](assets/images/sensitivity.png)  
+![](assets/images/specificity.png)  
+![](assets/images/precision.png)  
+![](assets/images/false-positive-rate.png)  
+
+
+
+
+## Accuracy
 
 We have achieved the follosing success...
 
