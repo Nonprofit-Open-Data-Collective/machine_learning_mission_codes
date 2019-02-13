@@ -9,13 +9,13 @@ A tutorial about using mission and program service accomplishment text to predic
 
 ## Assessing Model Fit
 
-Precision is True Positives divided by the number of True Positives and False Positives. Put another way, it is the number of positive predictions divided by the total number of positive class values predicted.
+![](assets/images/sensitivity.png)
+![](assets/images/specificity.png)
+![](assets/images/precision.png)
+![](assets/images/false-positive-rate.png)
 
-Sensitivity or Recall is the number of True Positives divided by the number of True Positives and the number of False Negatives. Put another way it is the number of positive predictions divided by the number of positive class values in the test data. It is also called the True Positive Rate. Sensitivity can be thought of as a measure of a classifiers completeness. A low recall indicates many False Negatives.
+[cite](https://classeval.wordpress.com/introduction/basic-evaluation-measures/)
 
-The F1 Score is the 2 * (precision*recall) / (precision+recall) . It is also called the F Score or the F Measure. Put another way, the F1 score conveys the balance between the precision and the recall.
-
-[cite](https://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)
 
 
 ```
@@ -39,7 +39,15 @@ The F1 Score is the 2 * (precision*recall) / (precision+recall) . It is also cal
 ## Balanced Accuracy : 0.7818 
 ```
 
-Better [cite](https://classeval.wordpress.com/introduction/basic-evaluation-measures/)
+
+Precision is True Positives divided by the number of True Positives and False Positives. Put another way, it is the number of positive predictions divided by the total number of positive class values predicted.
+
+Sensitivity or Recall is the number of True Positives divided by the number of True Positives and the number of False Negatives. Put another way it is the number of positive predictions divided by the number of positive class values in the test data. It is also called the True Positive Rate. Sensitivity can be thought of as a measure of a classifiers completeness. A low recall indicates many False Negatives.
+
+The F1 Score is the 2 * (precision*recall) / (precision+recall) . It is also called the F Score or the F Measure. Put another way, the F1 score conveys the balance between the precision and the recall.
+
+[cite](https://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)
+
 
 
 ## Progress
