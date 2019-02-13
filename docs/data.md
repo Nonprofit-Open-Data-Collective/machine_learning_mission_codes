@@ -4,10 +4,26 @@ title: "Data"
 
 Some info about data sources...
 
+IRS E-File Data
 
-## Import from GitHub
+IRS 1023-EZ Files
 
-We have both CSV (comma separated values) and RDS (R data set) files available for many of the datasets. 
+# Available Activity Data
+
+Text-based data describing nonprofit activities.
+
+* Nonprofit missions on IRS forms (e-file database)
+* Program service accomplishments (e-file database)
+* We
+
+# Available Activity Codes
+
+See the [Taxonomy](https://nonprofit-open-data-collective.github.io/machine_learning_mission_codes/taxonomies/) section.
+
+
+# Read Data from GitHub
+
+We have both CSV (comma separated values) and RDS (R data set) files available for many of the datasets in the [DATA](https://github.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/tree/master/DATA) section of this repository. 
 
 Read CSV version:
 
