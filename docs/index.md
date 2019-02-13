@@ -19,7 +19,15 @@ As such, we are following an open science model where all data and code used to 
 
 ## Replication Files
 
-Describe steps in the code...
+**Data Preparation** 
+
+files...
+
+**Machine Learning Approaches**  
+
+vignettes...
+
+**Text Analysis**
 
 [Semantic Network Analysis](tutorials/semantic_networks.html)
 
