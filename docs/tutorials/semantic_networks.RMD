@@ -421,6 +421,12 @@ g.religious.no <- graph.edgelist( as.matrix(m2), directed=FALSE )
 
 summary( g.religious.yes )
 summary( g.religious.no )
+
+g.religious.yes <- simplify( g.religious.yes )
+summary( g.religious.yes )
+
+g.religious.no  <- simplify( g.religious.no )
+summary( g.religious.no )
 ```
 
 ```{r}
@@ -445,3 +451,84 @@ title( main="Unique Word Ties Religious Nonprofits" )
 ```
 
 These need to be filtered using a probabalistic method to identify only the ties that are statistically meaningful (would not occur by chance) within each group. 
+
+## Religious Purpose Nonprofits
+
+
+```{r}
+g1 <- induced_subgraph( g.religious.yes.unique, 
+                        sample( 1:length( V(g.religious.yes.unique) ), 100 ) )
+
+# remove isolates
+g1 <- delete.vertices( g1, degree(g1)==0 )
+
+simpleNetwork( as_data_frame( g1 ), 
+               linkDistance = 70, charge = -50, 
+               fontSize = 10, fontFamily = "serif",
+               linkColour = "#D3D3D3",
+               zoom = T )
+```
+
+```{r}
+g1 <- induced_subgraph( g.religious.yes.unique, 
+                        sample( 1:length( V(g.religious.yes.unique) ), 100 ) )
+
+# remove isolates
+g1 <- delete.vertices( g1, degree(g1)==0 )
+
+simpleNetwork( as_data_frame( g1 ), 
+               linkDistance = 70, charge = -50, 
+               fontSize = 10, fontFamily = "serif",
+               linkColour = "#D3D3D3",
+               zoom = T )
+```
+
+
+
+## Non-Religious Purpose Nonprofits
+
+```{r}
+g.religious.no.unique <- g.religious.no %m% g.religious.yes
+
+# remove isolates
+g.religious.no.unique <- delete.vertices( g.religious.no.unique, 
+                                           degree(g.religious.no.unique)==0 )
+
+g2 <- induced_subgraph( g.religious.no.unique, 
+                        sample( 1:length( V(g.religious.no.unique) ), 100 ) )
+
+# remove isolates
+g2 <- delete.vertices( g2, degree(g2)==0 )
+
+g2 <- simplify( g2 )
+
+simpleNetwork( as_data_frame( g2 ), 
+               linkDistance = 70, charge = -50, 
+               fontSize = 10, fontFamily = "serif",
+               linkColour = "#D3D3D3",
+               zoom = T )
+```
+
+
+```{r}
+g.religious.no.unique <- g.religious.no %m% g.religious.yes
+
+# remove isolates
+g.religious.no.unique <- delete.vertices( g.religious.no.unique, 
+                                           degree(g.religious.no.unique)==0 )
+
+g2 <- induced_subgraph( g.religious.no.unique, 
+                        sample( 1:length( V(g.religious.no.unique) ), 100 ) )
+
+# remove isolates
+g2 <- delete.vertices( g2, degree(g2)==0 )
+
+g2 <- simplify( g2 )
+
+simpleNetwork( as_data_frame( g2 ), 
+               linkDistance = 70, charge = -50, 
+               fontSize = 10, fontFamily = "serif",
+               linkColour = "#D3D3D3",
+               zoom = T )
+```
+
