@@ -21,8 +21,6 @@ Major Groups:
 * X. Unknown, Unclassified - Z
 
 
-**ICNPO Codes**
-
 
 **IRS 1023-EZ Purpose Codes**
 
@@ -37,6 +35,9 @@ Instructions for completing IRS 1023-EZ mission codes pp 6-7 [FORM](https://www.
 * Prevent Cruelty to Animals and/or Children [yes/no]
 
 
+**ICNPO Codes**
+
+
 Guidestar Codes? 
 
 Foundation Center Codes? 
@@ -45,15 +46,17 @@ Other mission taxonomies?
 
 
 
-# Background
 
-ICNPO [paper](http://asauk.org.uk/wp-content/uploads/2018/02/CNP_WP19_1996.pdf)
-
-
-# Validity and Reliability
+# Validity and Reliability of Codes
 
 Human coding of a sample
 
 Rules for coding
 
 IRR
+
+
+# Background Resources
+
+ICNPO [paper](http://asauk.org.uk/wp-content/uploads/2018/02/CNP_WP19_1996.pdf)
+
