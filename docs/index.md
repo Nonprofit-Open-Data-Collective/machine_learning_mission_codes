@@ -9,9 +9,9 @@ A tutorial about using mission and program service accomplishment text to predic
 
 ## Assessing Model Fit
 
-![](assets/images/precision.png)
-![](assets/images/specificity.png)
 ![](assets/images/sensitivity.png)
+![](assets/images/specificity.png)
+![](assets/images/precision.png)
 ![](assets/images/false-positive-rate.png)
 
 [cite](https://classeval.wordpress.com/introduction/basic-evaluation-measures/)
