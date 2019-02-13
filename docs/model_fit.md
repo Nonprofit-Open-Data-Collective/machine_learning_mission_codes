@@ -63,6 +63,9 @@ Some commmon metrics
 ```
 
 
+## Interpretation
+
+
 Precision is True Positives divided by the number of True Positives and False Positives. Put another way, it is the number of positive predictions divided by the total number of positive class values predicted.
 
 Sensitivity or Recall is the number of True Positives divided by the number of True Positives and the number of False Negatives. Put another way it is the number of positive predictions divided by the number of positive class values in the test data. It is also called the True Positive Rate. Sensitivity can be thought of as a measure of a classifiers completeness. A low recall indicates many False Negatives.
@@ -73,8 +76,5 @@ The F1 Score is the 2 * (precision*recall) / (precision+recall) . It is also cal
 
 
 
-## Interpretation
-
-asdf
 
 
