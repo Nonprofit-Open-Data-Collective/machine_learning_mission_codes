@@ -17,12 +17,6 @@ As such, we are following an open science model where all data and code used to 
 
 
 
-## Accuracy
-
-We have achieved the follosing success...
-
-
-
 ## Replication Files
 
 Describe steps in the code...
@@ -33,6 +27,12 @@ Next steps:
 * Develop function that will return set of mission statements that contain specific stems. 
 * Identify word pairs that are unique (distinctive) to each NTEE code. 
 * Select a specific nonprofit then find similar nonprofits based upon mission. 
+
+
+
+## Accuracy
+
+We have achieved the follosing success...
 
 
 ## Limitations
