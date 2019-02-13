@@ -17,6 +17,8 @@ The F1 Score is the 2 * (precision*recall) / (precision+recall) . It is also cal
 
 [cite](https://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)
 
+
+```
 ## Confusion Matrix and Statistics
 ##
 ##                        predicted_class
@@ -35,6 +37,7 @@ The F1 Score is the 2 * (precision*recall) / (precision+recall) . It is also cal
 ## Detection Rate : 0.8279
 ## Detection Prevalence : 0.8696
 ## Balanced Accuracy : 0.7818 
+```
 
 Better [cite](https://classeval.wordpress.com/introduction/basic-evaluation-measures/)
 
