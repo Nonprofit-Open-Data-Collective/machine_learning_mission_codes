@@ -44,22 +44,22 @@ Some commmon fit metrics
 ```
 ## Confusion Matrix and Statistics
 ##
-##                        predicted_class
-## actual_class            0            1
-##            0   0.82788226   0.04170074
-##            1   0.05928046   0.07113655
+##                 predicted_class
+## actual_class       0       1
+##            0   0.827   0.041
+##            1   0.059   0.071
 ##
-## Sensitivity : 0.9332
-## Specificity : 0.6304
-## Pos Pred Value : 0.9520
-## Neg Pred Value : 0.5455
-## Precision : 0.9520
-## Recall : 0.9332
-## F1 : 0.9425
-## Prevalence : 0.8872
-## Detection Rate : 0.8279
-## Detection Prevalence : 0.8696
-## Balanced Accuracy : 0.7818 
+## Sensitivity : 0.933
+## Specificity : 0.630
+## Pos Pred Value : 0.952
+## Neg Pred Value : 0.545
+## Precision : 0.952
+## Recall : 0.933
+## F1 : 0.942
+## Prevalence : 0.887
+## Detection Rate : 0.827
+## Detection Prevalence : 0.869
+## Balanced Accuracy : 0.781
 ```
 
 
