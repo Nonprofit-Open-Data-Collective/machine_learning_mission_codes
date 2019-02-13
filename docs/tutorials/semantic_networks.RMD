@@ -30,6 +30,9 @@ library( networkD3 )  # visualization package
 
 # Semantic Network Basics
 
+To demonstrate the method we will turn two small corpi into semantic networks and compare them. 
+
+These are frivolous examples but interestin in that they have an identical set of words, but different punctuation. We will create networks between all words that occur within sentences.
 
 -----
 
@@ -83,8 +86,9 @@ Gloria
 
 ```{r}
 # setwd( "C:/Users/jdlecy/Dropbox/02 - CLASSES/02 - MASTERS/03 - R Crash Course/03 - Labs/Lab 10 - Text as Data" )
+# x <- readLines( "assets/dear_john_letter_1.txt", warn=FALSE )
 
-x <- readLines( "assets/dear_john_letter_1.txt", warn=FALSE )
+x <- readLines( "https://raw.githubusercontent.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/master/docs/tutorials/assets/dear_john_letter_1.txt", warn=FALSE )
 
 x <- toupper( x )
 
@@ -196,7 +200,9 @@ simpleNetwork( as.data.frame(mat1),
 ### LETTER 2
 
 ```{r}
-x <- readLines("assets/dear_john_letter_2.txt", warn=FALSE)
+# x <- readLines("assets/dear_john_letter_2.txt", warn=FALSE)
+
+x <- readLines( "https://raw.githubusercontent.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/master/docs/tutorials/assets/dear_john_letter_2.txt", warn=FALSE )
 
 x <- toupper( x )
 
@@ -234,55 +240,75 @@ g.intersect <- g1 %s% g2
 # remove isolates
 g.intersect <- delete.vertices( g.intersect, degree(g.intersect)==0 )
 
-plot( g.intersect, 
-      layout = layout.kamada.kawai(g.intersect), 
-      edge.arrow.size  =0.4, 
-      vertex.size = 10,
-      vertex.label.cex = 1.5, 
-      vertex.frame.color = "gray",
-      vertex.color = "gray"
-     )
 
-title( main="Shared Semantic Ties" )
+
+# plot( g.intersect, 
+#       layout = layout.kamada.kawai(g.intersect), 
+#       edge.arrow.size  =0.4, 
+#       vertex.size = 10,
+#       vertex.label.cex = 1.5, 
+#       vertex.frame.color = "gray",
+#       vertex.color = "gray"
+#      )
+# 
+# title( main="Shared Semantic Ties" )
+
+simpleNetwork( as_data_frame( g.intersect ), 
+               linkDistance = 70, charge = -50, 
+               fontSize = 10, fontFamily = "serif",
+               linkColour = "#D3D3D3",
+               zoom = T )
 ```
 
 
-```{r, eval=F}
+```{r, eval=T}
 g1.unique <- g1 %m% g2
 
 # remove isolates
 g1.unique <- delete.vertices( g1.unique, degree(g1.unique)==0 )
 
-plot( g1.unique, 
-      layout = layout.kamada.kawai(g1.unique), 
-      edge.arrow.size  =0.4, 
-      vertex.size = 10,
-      vertex.label.cex = 1.5, 
-      vertex.frame.color = "gray",
-      vertex.color = "gray"
-     )
+# plot( g1.unique, 
+#       layout = layout.kamada.kawai(g1.unique), 
+#       edge.arrow.size  =0.4, 
+#       vertex.size = 10,
+#       vertex.label.cex = 1.5, 
+#       vertex.frame.color = "gray",
+#       vertex.color = "gray"
+#      )
+# 
+# title( main="Unique Semantic Ties G1" )
 
-title( main="Unique Semantic Ties G1" )
+simpleNetwork( as_data_frame( g1.unique ), 
+               linkDistance = 70, charge = -50, 
+               fontSize = 10, fontFamily = "serif",
+               linkColour = "#D3D3D3",
+               zoom = T )
 ```
 
 
 
-```{r, eval=F}
+```{r, eval=T}
 g2.unique <- g2 %m% g1
 
 # remove isolates
 g2.unique <- delete.vertices( g2.unique, degree(g2.unique)==0 )
 
-plot( g2.unique, 
-      layout = layout.kamada.kawai(g2.unique), 
-      edge.arrow.size  =0.4, 
-      vertex.size = 10,
-      vertex.label.cex = 1.5, 
-      vertex.frame.color = "gray",
-      vertex.color = "gray"
-     )
+# plot( g2.unique, 
+#       layout = layout.kamada.kawai(g2.unique), 
+#       edge.arrow.size  =0.4, 
+#       vertex.size = 10,
+#       vertex.label.cex = 1.5, 
+#       vertex.frame.color = "gray",
+#       vertex.color = "gray"
+#      )
+# 
+# title( main="Unique Semantic Ties G2" )
 
-title( main="Unique Semantic Ties G2" )
+simpleNetwork( as_data_frame( g2.unique ), 
+               linkDistance = 70, charge = -50, 
+               fontSize = 10, fontFamily = "serif",
+               linkColour = "#D3D3D3",
+               zoom = T )
 ```
 
 
@@ -418,3 +444,4 @@ plot( g.religious.yes.unique,
 title( main="Unique Word Ties Religious Nonprofits" )
 ```
 
+These need to be filtered using a probabalistic method to identify only the ties that are statistically meaningful (would not occur by chance) within each group. 
