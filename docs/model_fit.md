@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Assessing Model Fit"
+title: Assessing Model Fit
 ---
 
 
@@ -64,6 +64,8 @@ Sensitivity or Recall is the number of True Positives divided by the number of T
 The F1 Score is the 2 * (precision*recall) / (precision+recall) . It is also called the F Score or the F Measure. Put another way, the F1 score conveys the balance between the precision and the recall.
 
 [cite](https://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)
+
+
 
 ## Interpretation
 
