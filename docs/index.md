@@ -15,6 +15,12 @@ The goal of this project is to provide a robust set of test data, a reasonable s
 
 As such, we are following an open science model where all data and code used to produce this analysis is accessible and extensible through Creative Commons licensing. 
 
+## Training Dataset
+
+Description of data...
+
+* Mission fields 
+* Program service accomplishment fields 
 
 
 ## Replication Files
