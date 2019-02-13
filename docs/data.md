@@ -16,9 +16,19 @@ Text-based data describing nonprofit activities.
 * Program service accomplishments (e-file database)
 * Website data? 
 
-# Available Activity Codes
+See the [Taxonomy](https://nonprofit-open-data-collective.github.io/machine_learning_mission_codes/taxonomies/) section for activity codes.
 
-See the [Taxonomy](https://nonprofit-open-data-collective.github.io/machine_learning_mission_codes/taxonomies/) section.
+
+# Overview of Test Sample
+
+How was sample created, what it represents, why a test sample is useful for benchmarking and replication.
+
+Garbage in garbage out discussion: 
+* quality of program / mission descriptions 
+* quality of activity codes 
+
+IRS versus human coding...(validity and reliability of taxonomies)
+
 
 
 # Read Data from GitHub
