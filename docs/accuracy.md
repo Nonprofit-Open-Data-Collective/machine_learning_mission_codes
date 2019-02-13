@@ -1,14 +1,20 @@
 ---
 layout: page
-title: Accuracy
+title: Model Assessment
 ---
 
 
 --------------------
 
+## Model Fit
+
+![](../assets/images/four-outcomes-of-classifier.png)  
+
+
 ## Metrics  
 
-Some commmon metrics  
+Some commmon fit metrics  
+
 
 ![](../assets/images/sensitivity.png)  
 ![](../assets/images/specificity.png)  
