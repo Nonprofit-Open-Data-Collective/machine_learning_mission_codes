@@ -11,9 +11,9 @@ title: Accuracy
 Some commmon metrics  
 
 ![](../assets/images/sensitivity.png)  
-![](assets/images/specificity.png)  
-![](assets/images/precision.png)  
-![](assets/images/false-positive-rate.png)  
+![](../assets/images/specificity.png)  
+![](../assets/images/precision.png)  
+![](../assets/images/false-positive-rate.png)  
 
 -------
 
@@ -25,19 +25,19 @@ Some commmon metrics
 
 | METRIC                 |  FORMULA                     |
 |------------------------|------------------------------|
-|  Sensitivity           | ![](assets/images/sens.png)  |
-|  Specificity           | ![](assets/images/spec.png)  |
+|  Sensitivity           | ![](../assets/images/sens.png)  |
+|  Specificity           | ![](../assets/images/spec.png)  |
 |  Pos Pred Value        |  |
 |  Neg Pred Value        |  |
-|  Precision             | ![](assets/images/prec.png)  |
-|  Recall                | ![](assets/images/sens.png)  |
-|  F1                    | ![](assets/images/f1.png)  |
+|  Precision             | ![](../assets/images/prec.png)  |
+|  Recall                | ![](../assets/images/sens.png)  |
+|  F1                    | ![](../assets/images/f1.png)  |
 |  Prevalence            |   |
-|  Detection Rate        | ![](assets/images/file.png)  |
-|  Detection Prevalence  | ![](assets/images/file.png)  |
-|  Balanced Accuracy     | ![](assets/images/file.png)  |
-|  Accuracy              | ![](assets/images/acc.png)   |
-|  Error                 | ![](assets/images/err.png)   |
+|  Detection Rate        | ![](../assets/images/file.png)  |
+|  Detection Prevalence  | ![](../assets/images/file.png)  |
+|  Balanced Accuracy     | ![](../assets/images/file.png)  |
+|  Accuracy              | ![](../assets/images/acc.png)   |
+|  Error                 | ![](../assets/images/err.png)   |
 
 
 
