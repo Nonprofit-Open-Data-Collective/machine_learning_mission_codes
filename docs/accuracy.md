@@ -10,7 +10,7 @@ title: Accuracy
 
 Some commmon metrics  
 
-![](assets/images/sensitivity.png)  
+![](../assets/images/sensitivity.png)  
 ![](assets/images/specificity.png)  
 ![](assets/images/precision.png)  
 ![](assets/images/false-positive-rate.png)  
