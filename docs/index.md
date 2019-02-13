@@ -23,10 +23,6 @@ As such, we are following an open science model where all data and code used to 
 
 files...
 
-**Machine Learning Approaches**  
-
-vignettes...
-
 **Text Analysis**
 
 [Semantic Network Analysis](tutorials/semantic_networks.html)
@@ -35,6 +31,10 @@ Next steps:
 * Develop function that will return set of mission statements that contain specific stems. 
 * Identify word pairs that are unique (distinctive) to each NTEE code. 
 * Select a specific nonprofit then find similar nonprofits based upon mission. 
+
+**Machine Learning Approaches**  
+
+vignettes...
 
 
 
