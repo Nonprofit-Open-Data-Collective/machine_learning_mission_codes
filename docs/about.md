@@ -21,20 +21,32 @@ Nathan Grasse...
 Ji Ma...  
   
 Pamela Paxton...  
-  
 
 ------
 
-# Events
+# Get Involved
 
 West Coast Data Conference panel....
 
 ARNOVA panel.....
 
+Or contact....
 
 -----
 
-## Acknowledgements
+# Current Manuscripts
+
+List current working papers and published manuscripts on this topic
+
+Lecy, J., Ashley, S. & Santamarina, F. (2018). “Do Nonprofit Missions Vary by the Political Ideology of Supporting Communities? Some Preliminary Results.” *Public Performance and Management Review, forthcoming.*
+
+
+
+
+
+-----
+
+# Acknowledgements
 
 Funding sources...
 
