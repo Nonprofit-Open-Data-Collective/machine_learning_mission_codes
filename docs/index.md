@@ -22,9 +22,6 @@ A tutorial about using mission and program service accomplishment text to predic
 |  Precision             | ![](assets/images/prec.png)  |
 |  Recall                | ![](assets/images/sens.png)  |
 |  F1                    | ![](assets/images/f1.png)  |
-|  Detection Rate        | ![](assets/images/file.png)  |
-|  Detection Prevalence  | ![](assets/images/file.png)  |
-|  Balanced Accuracy     | ![](assets/images/file.png)  |
 |  Accuracy              | ![](assets/images/acc.png)   |
 |  Error                 | ![](assets/images/err.png)   |
 
