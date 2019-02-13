@@ -19,7 +19,7 @@ Text-based data describing nonprofit activities.
 See the [Taxonomy](https://nonprofit-open-data-collective.github.io/machine_learning_mission_codes/taxonomies/) section for activity codes.
 
 
-# Overview of Test Sample
+# Overview of Training Dataset
 
 How was sample created, what it represents, why a test sample is useful for benchmarking and replication.
 
