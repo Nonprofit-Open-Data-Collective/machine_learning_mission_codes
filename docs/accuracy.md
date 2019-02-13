@@ -13,7 +13,8 @@ title: Model Assessment
 
 ## Metrics  
 
-Some commmon fit metrics  
+Some commmon fit metrics [cite](https://classeval.wordpress.com/introduction/basic-evaluation-measures/). 
+
 
 
 ![](../assets/images/sensitivity.png)  
@@ -21,9 +22,7 @@ Some commmon fit metrics
 ![](../assets/images/precision.png)  
 ![](../assets/images/false-positive-rate.png)  
 
--------
 
-[cite](https://classeval.wordpress.com/introduction/basic-evaluation-measures/)  
 
 --------
 
@@ -61,6 +60,8 @@ Some commmon fit metrics
 ## Detection Prevalence : 0.869
 ## Balanced Accuracy : 0.781
 ```
+
+
 
 
 ## Interpretation
