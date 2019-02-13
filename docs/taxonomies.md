@@ -5,7 +5,7 @@ title: "Taxonomies"
 
 List info on taxonomies here...
 
-**NTEE Codes**
+**NTEE Codes** [NCCS Overview](https://nccs.urban.org/project/irs-activity-codes)
 
 Major Groups:
 
@@ -20,7 +20,15 @@ Major Groups:
 * IX. Mutual/Membership Benefit - Y
 * X. Unknown, Unclassified - Z
 
+Common Codes. Common codes represent activities of organizations, such as research, fundraising, and technical assistance, which are common to all major groups. The seven common codes used are:
 
+01 Alliance/Advocacy Organizations
+02 Management and Technical Assistance
+03 Professional Societies/Associations
+05 Research Institutes and/or Public Policy Analysis
+11 Monetary Support - Single Organization
+12 Monetary Support - Multiple Organizations
+19 Nonmonetary Support Not Elsewhere Classified (N.E.C.)
 
 **IRS 1023-EZ Purpose Codes**
 
