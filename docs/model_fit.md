@@ -4,16 +4,18 @@ title: Assessing Model Fit
 ---
 
 
-## Metrics
+## Metrics  
 
-Some commmon metrics:
+Some commmon metrics  
 
-![](assets/images/sensitivity.png)  
-![](assets/images/specificity.png)  
-![](assets/images/precision.png)  
-![](assets/images/false-positive-rate.png)  
+![](/assets/images/sensitivity.png)  
+![](/assets/images/specificity.png)  
+![](/assets/images/precision.PNG)  
+![](/assets/images/false-positive-rate.png)  
 
 [cite](https://classeval.wordpress.com/introduction/basic-evaluation-measures/)  
+
+
 
 
 
@@ -70,3 +72,5 @@ The F1 Score is the 2 * (precision*recall) / (precision+recall) . It is also cal
 ## Interpretation
 
 asdf
+
+
