@@ -18,6 +18,26 @@ A tutorial about using mission and program service accomplishment text to predic
 
 
 
+
+
+| METRIC                 |  FORMULA                     |
+|------------------------|------------------------------|
+|  Sensitivity           | ![](assets/images/sens.png)  |
+|  Specificity           | ![](assets/images/spec.png)  |
+|  Pos Pred Value        |  |
+|  Neg Pred Value        |  |
+|  Precision             | ![](assets/images/prec.png)  |
+|  Recall                | ![](assets/images/sens.png)  |
+|  F1                    | ![](assets/images/f1.png)  |
+|  Prevalence            |   |
+|  Detection Rate        | ![](assets/images/file.png)  |
+|  Detection Prevalence  | ![](assets/images/file.png)  |
+|  Balanced Accuracy     | ![](assets/images/file.png)  |
+|  Accuracy              | ![](assets/images/acc.png)   |
+|  Error                 | ![](assets/images/err.png)   |
+
+
+
 ```
 ## Confusion Matrix and Statistics
 ##
@@ -38,22 +58,6 @@ A tutorial about using mission and program service accomplishment text to predic
 ## Detection Prevalence : 0.8696
 ## Balanced Accuracy : 0.7818 
 ```
-
-| METRIC                 |  FORMULA                     |
-|------------------------|------------------------------|
-|  Sensitivity           | ![](assets/images/sens.png)  |
-|  Specificity           | ![](assets/images/spec.png)  |
-|  Pos Pred Value        |  |
-|  Neg Pred Value        |  |
-|  Precision             | ![](assets/images/prec.png)  |
-|  Recall                | ![](assets/images/sens.png)  |
-|  F1                    | ![](assets/images/f1.png)  |
-|  Prevalence            |   |
-|  Detection Rate        | ![](assets/images/file.png)  |
-|  Detection Prevalence  | ![](assets/images/file.png)  |
-|  Balanced Accuracy     | ![](assets/images/file.png)  |
-|  Accuracy              | ![](assets/images/acc.png)   |
-|  Error                 | ![](assets/images/err.png)   |
 
 
 Precision is True Positives divided by the number of True Positives and False Positives. Put another way, it is the number of positive predictions divided by the total number of positive class values predicted.
