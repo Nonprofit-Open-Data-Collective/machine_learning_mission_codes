@@ -3,8 +3,20 @@
 
 ## Mission Text Files
 
-MISSION.csv / .rds
-PROGRAMS.csv / .rds
+MISSION.csv / .rds  
+PROGRAMS.csv / .rds  
+
+Import CSV version:
+
+```r
+dat <- read.csv( "https://github.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/blob/master/DATA/MISSION.csv?raw=true", stringsAsFactors=F )
+```
+
+Import RDS version:
+
+```r
+dat <- readRDS( gzcon( url( "https://github.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/blob/master/DATA/MISSION.rds" )))
+```
 
 These files contain fields from 
 
