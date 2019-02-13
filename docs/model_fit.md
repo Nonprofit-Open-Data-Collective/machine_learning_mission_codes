@@ -5,10 +5,10 @@ title: "Assessing Model Fit"
 
 
 
-![](assets/images/sensitivity.png)  
-![](assets/images/specificity.png)  
-![](assets/images/precision.png)  
-![](assets/images/false-positive-rate.png)  
+![](assets/images/sensitivity.png)
+![](assets/images/specificity.png)
+![](assets/images/precision.png)
+![](assets/images/false-positive-rate.png)
 
 [cite](https://classeval.wordpress.com/introduction/basic-evaluation-measures/)
 
