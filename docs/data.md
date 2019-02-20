@@ -2,7 +2,7 @@
 title: "Data"
 ---
 
-One goal of this project is to create a training dataset that can serve as a reference point for performance of program activity classification algorithms that rely on the types of text that would be readily available on websited, grant aplications, tax forms, or annual reports.
+The goal of this project is to create a training dataset that can serve as a reference point for performance of program activity classification algorithms that rely on the types of text that would be readily available on websites, grant aplications, tax forms, or annual reports.
 
 The creation of a reference dataset allows for innovation and progress since the relative performance of algorithms can be compared when they are applied to the same dataset. Performance metrics are difficult to interpret if they are drawn from different underlying data sources. 
 
