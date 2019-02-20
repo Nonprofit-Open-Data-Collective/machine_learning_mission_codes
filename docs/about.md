@@ -15,22 +15,32 @@ Entrepreneurship and Public Policy
 **Francisco Santamarina**  
 PhD Student, Univ. of Washington  
 Data Analytics & Nonprofit Capacity  
+  
+**Ji Ma**
+Assistant Professor, UT Austin LBJ School
+Philanthropic and Nonprofit Studies
+  
+**Pamela Paxton** 
+Professor, UT Austin
+Sociology
 
-Nathan Grasse...  
-  
-Ji Ma...  
-  
-Pamela Paxton...  
+**Nathan Grasse**
+Associate Professor, Carleton University Canada
+Nonprofit Finance & Management
+
+**Julia Carboni**
+Associate Professor, Syracuse Unversity
+Nonprofit Studies and Collaborative Governance
+
 
 ------
 
 # Get Involved
 
-West Coast Data Conference panel....
+West Coast Data Conference panel: Schedule coming soon
 
-ARNOVA panel.....
+ARNOVA: Join us for a panel 
 
-Or contact....
 
 -----
 
