@@ -24,7 +24,7 @@ See the [taxonomy](https://nonprofit-open-data-collective.github.io/machine_lear
 
 
 
-## Available Program Activity Data
+## Available Mission and Activity Text
 
 Text-based data describing nonprofit activities.
 
