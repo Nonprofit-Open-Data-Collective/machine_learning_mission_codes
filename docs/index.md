@@ -39,7 +39,7 @@ Description of data...
 
 * [Semantic Network Analysis](tutorials/semantic_networks.html)  
 
-**Machine Learning Approaches**  
+**Supervised Learning Approaches**  
 
 * Naive Bayes Classifiers
 * Support Vector Machines
