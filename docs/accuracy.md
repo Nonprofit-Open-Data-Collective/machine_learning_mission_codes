@@ -60,6 +60,7 @@ The F1 Score is the 2 * (precision*recall) / (precision+recall) . It is also cal
 --------
 
 
+## Formulas
 
 | METRIC                 |  FORMULA                     |
 |------------------------|------------------------------|
@@ -76,6 +77,37 @@ The F1 Score is the 2 * (precision*recall) / (precision+recall) . It is also cal
 
 ----------------------------
 
+
+## Example
+
+Here are results from an exercise with a dataset with 20 values to demonstrate the calculation of some of the metrics:
+
+```
+	              PREDICTED		
+		        Positive	Negative
+OBSERVED	
+Positive        6        4
+Negative        2        8
+```
+
+
+| METRIC                    | ABBR    | CALCULATIONS |
+|---------------------------|-----------|--------------|
+| Error rate                | ERR  | 6 / 20 = 0.3     |
+| Accuracy                  | ACC  | 14 / 20 = 0.7    |
+| Sensitivity               | SN   | 6 / 10 = 0.6     |
+| True positive rate        | TPR  |                  |
+| Recall                    | REC  |                  |
+| Specificity               | SP   | 8 / 10 = 0.8     |
+| True negative rate        | TNR  |                  |
+| Precision                 | PREC | 6 / 8 =0.75      |
+| Positive predictive value | PPV  |                  |
+| False positive rate       | FPR  | 2 / 10 = 0.2     |
+
+
+<br>
+
+-------------
 
 ## Sample R Output
 
