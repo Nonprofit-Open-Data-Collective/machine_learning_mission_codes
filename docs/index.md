@@ -15,28 +15,28 @@ The goal of this project is to provide a robust set of test data, a reasonable s
 
 As such, we are following an open science model where all data and code used to produce this analysis is accessible and extensible through Creative Commons licensing. 
 
-## Training Dataset
+------------------------
+
+# The Training Dataset
 
 Description of data...
 
 * Mission fields 
 * Program service accomplishment fields 
+* Taxonomies
 
 
-## Replication Files
+---------------------------
 
-**Data Preparation** 
+# Replication Files
 
-files...
+**Preprocessing Text Data** 
 
-**Text Analysis**
+Description and files...
+
+**Text Analysis Approaches**
 
 [Semantic Network Analysis](tutorials/semantic_networks.html)
-
-Next steps:
-* Develop function that will return set of mission statements that contain specific stems. 
-* Identify word pairs that are unique (distinctive) to each NTEE code. 
-* Select a specific nonprofit then find similar nonprofits based upon mission. 
 
 **Machine Learning Approaches**  
 
@@ -49,7 +49,11 @@ vignettes...
 We have achieved the follosing success...
 
 
-## Limitations
 
+-----------------------
 
-## Next Steps
+# Next Steps
+
+* Develop function that will return set of mission statements that contain specific stems. 
+* Identify word pairs that are unique (distinctive) to each NTEE code. 
+* Select a specific nonprofit then find similar nonprofits based upon mission. 
