@@ -16,22 +16,22 @@ Entrepreneurship and Public Policy
 PhD Student, Univ. of Washington  
 Data Analytics & Nonprofit Capacity  
   
-**Ji Ma**
-Assistant Professor, UT Austin LBJ School
-Philanthropic and Nonprofit Studies
+**Ji Ma**  
+Assistant Professor, UT Austin LBJ School  
+Philanthropic and Nonprofit Studies  
   
-**Pamela Paxton** 
-Professor, UT Austin
-Sociology
+**Pamela Paxton**   
+Professor, UT Austin  
+Sociology  
 
-**Nathan Grasse**
-Associate Professor, Carleton University Canada
-Nonprofit Finance & Management
+**Nathan Grasse**  
+Associate Professor, Carleton University Canada  
+Nonprofit Finance & Management  
 
-**Julia Carboni**
-Associate Professor, Syracuse Unversity
-Nonprofit Studies and Collaborative Governance
-
+**Julia Carboni**  
+Associate Professor, Syracuse Unversity  
+Nonprofit Studies and Collaborative Governance  
+ 
 
 ------
 
