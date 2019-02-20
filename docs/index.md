@@ -32,7 +32,7 @@ Description of data...
 
 **Preprocessing Text Data** 
 
-* link to file  
+* [Preprocessing Steps](tutorials/Preprocessing.html) 
 
 
 **Text Analysis Approaches**
