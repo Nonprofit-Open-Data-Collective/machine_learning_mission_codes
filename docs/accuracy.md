@@ -28,7 +28,7 @@ The confusion matrix organizes the results into a table where the actual classes
 
 ## Common Metrics  
 
-Some commmon fit metrics [cite](https://classeval.wordpress.com/introduction/basic-evaluation-measures/). 
+Takaya Saito and Marc Rehmsmeier have developed a great website explaining some commmon fit metrics that we present here [WEBSITE](https://classeval.wordpress.com/introduction/basic-evaluation-measures/). 
 
 
 
@@ -51,9 +51,7 @@ Precision is True Positives divided by the number of True Positives and False Po
 
 
 
-The F1 Score is the 2 * (precision*recall) / (precision+recall) . It is also called the F Score or the F Measure. Put another way, the F1 score conveys the balance between the precision and the recall.
-
-[cite](https://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)
+The F1 Score is the 2 * (precision*recall) / (precision+recall) . It is also called the F Score or the F Measure. Put another way, the F1 score conveys the balance between the precision and the recall. [cite](https://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)
 
 
 --------
@@ -95,9 +93,6 @@ The F1 Score is the 2 * (precision*recall) / (precision+recall) . It is also cal
 ```
 
 
-
-
-## Interpretation
 
 
 
