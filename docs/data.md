@@ -24,7 +24,7 @@ See the [taxonomy](https://nonprofit-open-data-collective.github.io/machine_lear
 
 
 
-## Available Activity Data
+## Available Program Activity Data
 
 Text-based data describing nonprofit activities.
 
@@ -34,7 +34,7 @@ Text-based data describing nonprofit activities.
 
 
 
-# Overview of Training Dataset
+# Overview of the Training Dataset
 
 How was sample created, what it represents, why a test sample is useful for benchmarking and replication.
 
