@@ -4,6 +4,8 @@ title: Model Assessment
 ---
 
 
+Machine learning approaches to data analysis are often predictive models, not regression models or causal frameworks common in many social sciences. Model fit is assessed by predictive performance rather than statistical significance. We have included this information as a quick reference for those interested in understanding how to interpret output that is common to many supervised learning algorithms. 
+
 --------------------
 
 ## Model Fit
@@ -11,7 +13,20 @@ title: Model Assessment
 ![](../assets/images/four-outcomes-of-classifier.png)  
 
 
-## Metrics  
+**THE CONFUSION MATRIX**
+
+```
+              Predicted Group
+Actual Group                  YES                NO   
+          YES    **TRUE Positives   FALSE Negatives**
+           NO   **FALSE Positives    TRUE Negatives**
+```
+
+The confusion matrix organizes the results into a table where the actual classes are represented by row values, and the predicted classes are represented by column values. It is a compact way to represent information regarding algorithm performance. 
+
+
+
+## Common Metrics  
 
 Some commmon fit metrics [cite](https://classeval.wordpress.com/introduction/basic-evaluation-measures/). 
 
@@ -39,6 +54,8 @@ Some commmon fit metrics [cite](https://classeval.wordpress.com/introduction/bas
 |  Error                 | ![](../assets/images/err.png)   |
 
 
+
+## Confusion Matrix
 
 ```
 ## Confusion Matrix and Statistics
