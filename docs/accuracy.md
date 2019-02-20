@@ -83,9 +83,9 @@ The F1 Score is the 2 * (precision*recall) / (precision+recall) . It is also cal
 Here are results from an exercise with a dataset with 20 values to demonstrate the calculation of some of the metrics:
 
 ```
-	              PREDICTED		
-		        Positive	Negative
-OBSERVED	
+                 PREDICTED		
+OBSERVED            
+            Positive  Negative
 Positive        6        4
 Negative        2        8
 ```
