@@ -2,12 +2,16 @@
 title: "Taxonomies"
 ---
 
+A variety of nonprofit activity codes have been created to describe missions and program activities. We have included two of the most common taxonomies, and some references for others. 
 
-List info on taxonomies here...
+Machine learning techniques are also promising because they allow you to build your own taxonomies. You can then hand-code a small sample of the data, which is used as a training dataset to calibrate your machine learning algorithms ([for example](https://towardsdatascience.com/train-image-recognition-ai-with-5-lines-of-code-8ed0bdd8d9ba)), which can then code a large corpus of mission statements. We encourage you to think about creating your own purpose codes and sharing your approach. 
 
-**NTEE Codes** [NCCS Overview](https://nccs.urban.org/project/irs-activity-codes)
 
-Major Groups:
+## NTEE Codes 
+
+[NCCS Overview](https://nccs.urban.org/project/irs-activity-codes)
+
+**Major Groups:**
 
 * I. Arts, Culture, and Humanities - A
 * II. Education - B
@@ -20,7 +24,9 @@ Major Groups:
 * IX. Mutual/Membership Benefit - Y
 * X. Unknown, Unclassified - Z
 
-Common Codes. Common codes represent activities of organizations, such as research, fundraising, and technical assistance, which are common to all major groups. The seven common codes used are:
+**Common Codes:** 
+
+Common codes represent activities of organizations, such as research, fundraising, and technical assistance, which are common to all major groups. The seven common codes used are:
 
 * 01 Alliance/Advocacy Organizations  
 * 02 Management and Technical Assistance  
@@ -30,9 +36,11 @@ Common Codes. Common codes represent activities of organizations, such as resear
 * 12 Monetary Support - Multiple Organizations  
 * 19 Nonmonetary Support Not Elsewhere Classified (N.E.C.)  
 
-**IRS 1023-EZ Purpose Codes**
+## IRS 1023-EZ Purpose Codes
 
-Instructions for completing IRS 1023-EZ mission codes pp 6-7 [FORM](https://www.irs.gov/pub/irs-pdf/i1023ez.pdf)
+When applying for tax exempt status from the IRS, nonprofit founders report organizational purpose codes on the 1023 form. These codes differ from the NTEE taxonomies in that each code is binary (yes/no), and they are NOT mutually exclusive, so a nonprofit mission can fulfill one or several of these purposes. 
+
+The IRS has started releasing some of the meta-data for 1023-EZ forms. Instructions for completing IRS 1023-EZ mission codes pp 6-7 [FORM](https://www.irs.gov/pub/irs-pdf/i1023ez.pdf)
 
 * Religious Purpose [yes/no]
 * Educational Purpose [yes/no]
@@ -43,7 +51,7 @@ Instructions for completing IRS 1023-EZ mission codes pp 6-7 [FORM](https://www.
 * Prevent Cruelty to Animals and/or Children [yes/no]
 
 
-**ICNPO Codes**
+## ICNPO Codes
 
 
 Guidestar Codes? 
@@ -64,7 +72,7 @@ Rules for coding
 IRR
 
 
-# Background Resources
+# References
 
 ICNPO [paper](http://asauk.org.uk/wp-content/uploads/2018/02/CNP_WP19_1996.pdf)
 
