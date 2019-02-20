@@ -25,6 +25,9 @@ Actual Group               YES                NO
 The confusion matrix organizes the results into a table where the actual classes are represented by row values, and the predicted classes are represented by column values. It is a compact way to represent information regarding algorithm performance. 
 
 
+<br>
+
+--------------------
 
 ## Common Metrics  
 
@@ -69,7 +72,12 @@ The F1 Score is the 2 * (precision*recall) / (precision+recall) . It is also cal
 |  Error                 | ![](../assets/images/err.png)   |
 
 
-## R Output
+<br>
+
+----------------------------
+
+
+## Sample R Output
 
 ```
 ## Confusion Matrix and Statistics
