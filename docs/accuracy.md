@@ -31,7 +31,7 @@ The confusion matrix organizes the results into a table where the actual classes
 
 ## Common Metrics  
 
-Takaya Saito and Marc Rehmsmeier have developed a great website explaining some commmon fit metrics that we present here [WEBSITE](https://classeval.wordpress.com/introduction/basic-evaluation-measures/). 
+Takaya Saito and Marc Rehmsmeier have developed a great website explaining some commmon fit metrics that we present here. [LINK TO WEBSITE](https://classeval.wordpress.com/introduction/basic-evaluation-measures/)
 
 
 
