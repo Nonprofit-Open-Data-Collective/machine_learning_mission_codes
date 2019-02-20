@@ -44,9 +44,13 @@ vignettes...
 
 
 
+-------------------------
+
 ## Accuracy
 
-We have achieved the follosing success...
+These examples are mean to provide a baseline level of performance only. 
+
+We have achieved the following success...
 
 
 
