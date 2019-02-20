@@ -37,9 +37,9 @@ Nonprofit Studies and Collaborative Governance
 
 # Get Involved
 
-West Coast Data Conference panel: Schedule coming soon
+**West Coast Data Conference** Plenary on methods using open data. 
 
-ARNOVA: Join us for a panel 
+**ARNOVA 2019**: We are organizing a panel to highlight methods, approaches, and benchmark predictive model accuracy. Let us know if you are interested in joining!
 
 
 -----
