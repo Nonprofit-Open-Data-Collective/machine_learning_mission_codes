@@ -2,6 +2,40 @@
 title: "Data"
 ---
 
+We have both CSV and RDS (R data set) files available in the [DATA](https://github.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/tree/master/DATA) section of this GitHub repository. They can be loaded directly into R as follows.
+
+Read CSV version:
+
+```r
+dat <- read.csv( "https://github.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/blob/master/DATA/MISSION.csv?raw=true", stringsAsFactors=F )
+```
+
+Read RDS version:
+
+```r
+dat <- readRDS( gzcon( url( "https://github.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/blob/master/DATA/MISSION.rds?raw=true" )))
+```
+
+<br> 
+<br> 
+
+-------------------
+
+# Overview of the Training Dataset
+
+[need to add]...How was sample created, what it represents, why a test sample is useful for benchmarking and replication.
+
+Garbage in garbage out discussion: 
+* quality of program / mission descriptions 
+* quality of activity codes 
+
+See the [Taxonomy](https://nonprofit-open-data-collective.github.io/machine_learning_mission_codes/taxonomies/) section for activity codes.
+
+IRS versus human coding...(validity and reliability of taxonomies)
+
+
+# Why Use a Common Replication Dataset?
+
 The goal of this project is to create a training dataset that can serve as a reference point for performance of program activity classification algorithms that rely on the types of text that would be readily available on websites, grant aplications, tax forms, or annual reports.
 
 The creation of a reference dataset allows for innovation and progress since the relative performance of algorithms can be compared when they are applied to the same dataset. Performance metrics are difficult to interpret if they are drawn from different underlying data sources. 
@@ -34,40 +68,11 @@ Text-based data describing nonprofit activities.
 
 
 
-# Overview of the Training Dataset
-
-How was sample created, what it represents, why a test sample is useful for benchmarking and replication.
-
-Garbage in garbage out discussion: 
-* quality of program / mission descriptions 
-* quality of activity codes 
-
-See the [Taxonomy](https://nonprofit-open-data-collective.github.io/machine_learning_mission_codes/taxonomies/) section for activity codes.
-
-IRS versus human coding...(validity and reliability of taxonomies)
 
 
 
-# Read Data from GitHub
 
-We have both CSV (comma separated values) and RDS (R data set) files available for many of the datasets in the [DATA](https://github.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/tree/master/DATA) section of this repository. 
 
-Read CSV version:
-
-```r
-dat <- read.csv( "https://github.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/blob/master/DATA/MISSION.csv?raw=true", stringsAsFactors=F )
-```
-
-Read RDS version:
-
-```r
-dat <- readRDS( gzcon( url( "https://github.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/blob/master/DATA/MISSION.rds?raw=true" )))
-```
-
-<br> 
-<br> 
-
--------------------
 
 # Raw Mission Data 
 
