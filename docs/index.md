@@ -32,15 +32,17 @@ Description of data...
 
 **Preprocessing Text Data** 
 
-Description and files...
+* link to file  
+
 
 **Text Analysis Approaches**
 
-[Semantic Network Analysis](tutorials/semantic_networks.html)
+* [Semantic Network Analysis](tutorials/semantic_networks.html)  
 
 **Machine Learning Approaches**  
 
-vignettes...
+* Naive Bayes Classifiers
+* Support Vector Machines
 
 
 
