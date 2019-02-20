@@ -19,12 +19,13 @@ As such, we are following an open science model where all data and code used to 
 
 # The Training Dataset
 
-Description of data...
+Description of training dataset...
 
+* Nonprofit names
 * Mission fields 
 * Program service accomplishment fields 
-* Taxonomies
-
+* Taxonomies: NTEE and IRS Purpose Codes
+  * Subset of human-coded activity codes for reliability
 
 ---------------------------
 
@@ -55,11 +56,3 @@ These examples are mean to provide a baseline level of performance only.
 We have achieved the following success...
 
 
-
------------------------
-
-# Next Steps
-
-* Develop function that will return set of mission statements that contain specific stems. 
-* Identify word pairs that are unique (distinctive) to each NTEE code. 
-* Select a specific nonprofit then find similar nonprofits based upon mission. 
