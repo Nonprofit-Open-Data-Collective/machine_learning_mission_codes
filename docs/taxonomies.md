@@ -51,28 +51,40 @@ The IRS has started releasing some of the meta-data for 1023-EZ forms. Instructi
 * Prevent Cruelty to Animals and/or Children [yes/no]
 
 
-## ICNPO Codes
-
-
-Guidestar Codes? 
-
-Foundation Center Codes? 
-
-Other mission taxonomies? 
-
-
-
 
 # Validity and Reliability of Codes
 
-Human coding of a sample
+The challenge with many of the nonprofit activity codes is a noisy data that stems from two primary source:
 
-Rules for coding
+* The ambiguous and evolving nature of nonprofit activities
+* Poorly-constructed taxonomies
 
-IRR
+The main challenge with bad data is that trying to use supervised learning approaches to mission classification will inaccurate if the underlying taxonomy is meaningless or inconsistent. So good reliable input data is a prerequisite for accurate classifiers. 
+
+We have approached this problem from a measurement perspective, and include discussion about the validity and reliability of each taxonomy. To measure the reliability of codes we have included a sample that was coded by three separate human beings to test for inter-coder reliability as a baseline metric when calibrating machine performance. We expect that codes which are difficult for humans to apply will also be difficult for machines to accurately predict. 
+
+Human coded sample...
+
+Rules for coding...
+
+IRR scores...
 
 
-# References
+
+
+# Additional Taxonomies
+
+ICNPO Codes
+
+Guidestar Codes
+
+Foundation Center Grant Codes
+
+Other?
+
+
+
+## References
 
 ICNPO [paper](http://asauk.org.uk/wp-content/uploads/2018/02/CNP_WP19_1996.pdf)
 
