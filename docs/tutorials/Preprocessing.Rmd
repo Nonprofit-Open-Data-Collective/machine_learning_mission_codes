@@ -10,10 +10,9 @@ Just using Quanteda at this point
 library(quanteda)
 ```
 
+#Preprocessing data on organization name, mission, and programs
 
-## Mission
-
-Call
+Call in both datasets
 
 ```{r, echo=TRUE}
 mission <- read.csv( "https://github.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/blob/master/DATA/MISSION.csv?raw=true", stringsAsFactors=F )
@@ -59,7 +58,7 @@ We can look at the corpus to see how it's structured
 
 ```{r, echo=TRUE}
 mp.corp
-mp.corp[1]
+mp.corp[2]
 summary(mp.corp)[1:10,]
 ```
 
@@ -67,8 +66,11 @@ Preprocessing steps before identifying Ngrams. We can do many of these steps qui
 
 ```{r, echo=TRUE}
 mp.corp2 <- tolower(mp.corp)
+mp.corp2[2]
 mp.corp3 <- tokens(mp.corp2, remove_punct = TRUE)
+mp.corp3[2]
 mp.corp4 <- tokens_remove(tokens(mp.corp3), c(stopwords("english"), "nbsp"), padding  = F)
+mp.corp4[2]
 ```
 
 Now looking at Ngrams. Looking for combinations of 2 and 3 words. I've exported the lists that were produces for us all to look over to decide what we want to capture into a dictionary. This code can be updated once we have a larger list. 

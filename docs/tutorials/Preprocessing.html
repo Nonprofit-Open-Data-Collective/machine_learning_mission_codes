@@ -198,9 +198,9 @@ $(document).ready(function () {
 <pre><code>## The following object is masked from 'package:utils':
 ## 
 ##     View</code></pre>
-<div id="mission" class="section level2">
-<h2>Mission</h2>
-<p>Call</p>
+<div id="preprocessing-data-on-organization-name-mission-and-programs" class="section level1">
+<h1>Preprocessing data on organization name, mission, and programs</h1>
+<p>Call in both datasets</p>
 <pre class="r"><code>mission &lt;- read.csv( &quot;https://github.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/blob/master/DATA/MISSION.csv?raw=true&quot;, stringsAsFactors=F )
 programs &lt;- read.csv( &quot;https://github.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/blob/master/DATA/PROGRAMS.csv?raw=true&quot;, stringsAsFactors=F )</code></pre>
 <p>Reducing to the necessary columns and dropping any repeating observations</p>
@@ -219,9 +219,9 @@ mp.lim &lt;- mp[, c(&quot;EIN&quot;, &quot;text&quot;)]</code></pre>
 <p>We can look at the corpus to see how it’s structured</p>
 <pre class="r"><code>mp.corp</code></pre>
 <pre><code>## Corpus consisting of 4,278 documents and 1 docvar.</code></pre>
-<pre class="r"><code>mp.corp[1]</code></pre>
-<pre><code>##                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   text1 
-## &quot;THE SAN FRANCISCO HOUSING ACCELERATOR THE CORPORATION'S SPECIFIC PURPOSE IS TO SUPPORTS AFFORDABLE HOUSING, COMMUNITY DEVELOPMENT AND ECONOMIC DEVELOPMENT OF THE CITY AND COUNTY OF SAN FRANCISCO'S ECONOMICALLY DISADVANTAGED INDIVIDUALS AND COMMUNITIES, BY LENDING TO, INVESTING IN, AND DIRECTLY ACQUIRING SUCH AFFORDABLE HOUSING AND RELATED COMMUNITY DEVELOPMENT REAL ESTATE ASSETS. SFHAF CLOSED A LOAN TO BRIDGE HOUSING CORPORATION FOR A VACANT SITE AT 4840 MISSION STREET IN SAN FRANCISCO. THE LOAN WAS CLOSED ON JUNE 7, 2017 AND TOTALED $9.0M. THE LOAN PROCEEDS WILL BE USED FOR 175 NEW AFFORDABLE HOUSING UNITS AND A GROUND FLOOR COMMUNITY HEALTH CLINIC. WITHOUT THE FUND, BRIDGE'S PURCHASE AGREEMENT ON THIS STRATEGIC SITE WOULD HAVE EXPIRED.SFHAF CLOSED A LOAN TO MISSION ECONOMIC DEVELOPMENT AGENCY (MEDA) FOR ACQUISITION AND REHABILITATION OF A 6-UNIT PROPERTY AT 1411 FLORIDA STREET IN SAN FRANCISCO. THIS LOAN WAS CLOSED ON MAY 24, 2017 AND TOTALED $3.5M. THE LOAN PROCEEDS WILL BE USED TO REHABILITATE AND PRESERVE 6 AFFORDABLE HOUSING UNITS, AND BUILD AN ADDITIONAL ACCESSORY DWELLING UNIT (ADU). THE ADU IS A FIRST FOR THE CITY'S SMALL SITES PROGRAM, ALLOWING LONGTIME ELDERLY TENANTS TO AGE IN PLACE IN A NEW GROUND FLOOR APARTMENT.SFHAF CLOSED ITS FIRST ROUND OF CAPITAL IN APRIL, $37 MILLION IN TOTAL LED BY INVESTMENTS OF $20 MILLION FROM CITI COMMUNITY CAPITAL, $10 MILLION FROM THE CITY OF SAN FRANCISCO, AND $6.5 MILLION PHILANTHROPIC CAPITAL FROM DIGNITY HEALTH, THE SAN FRANCISCO FOUNDATION, AND THE HEWLETT FOUNDATION.&quot;</code></pre>
+<pre class="r"><code>mp.corp[2]</code></pre>
+<pre><code>##                                                                                                                                                                                                                                                                        text2 
+## &quot;CREEKSIDE ELEMENTARY PTO INC SUPPORT HARTLAND CREEKSIDE ELEMENTARY SCHOOL. PROVIDE CLASSROOM SUPPLIES FOR BENEFIT OF STUDENTS AND TEACHERS. PAID FOR EDUCATIONAL ASSEMBLIES AND PROGRAMS FOR STUDENTS. PROVIDED FUNDING FOR FIELD TRIP TRANSPORTATION BENEFITING STUDENTS.&quot;</code></pre>
 <pre class="r"><code>summary(mp.corp)[1:10,]</code></pre>
 <pre><code>##      Text Types Tokens Sentences       EIN
 ## 1   text1   132    272         8  10716217
@@ -236,8 +236,33 @@ mp.lim &lt;- mp[, c(&quot;EIN&quot;, &quot;text&quot;)]</code></pre>
 ## 10 text10     7     10         1 113731446</code></pre>
 <p>Preprocessing steps before identifying Ngrams. We can do many of these steps quickly while converting to a document feature matrix later, but want to do them explicitly before identifying Ngrams. We make the text lower case, break into topens, and remove stopwords</p>
 <pre class="r"><code>mp.corp2 &lt;- tolower(mp.corp)
-mp.corp3 &lt;- tokens(mp.corp2, remove_punct = TRUE)
-mp.corp4 &lt;- tokens_remove(tokens(mp.corp3), c(stopwords(&quot;english&quot;), &quot;nbsp&quot;), padding  = F)</code></pre>
+mp.corp2[2]</code></pre>
+<pre><code>##                                                                                                                                                                                                                                                                        text2 
+## &quot;creekside elementary pto inc support hartland creekside elementary school. provide classroom supplies for benefit of students and teachers. paid for educational assemblies and programs for students. provided funding for field trip transportation benefiting students.&quot;</code></pre>
+<pre class="r"><code>mp.corp3 &lt;- tokens(mp.corp2, remove_punct = TRUE)
+mp.corp3[2]</code></pre>
+<pre><code>## tokens from 1 document.
+## text2 :
+##  [1] &quot;creekside&quot;      &quot;elementary&quot;     &quot;pto&quot;            &quot;inc&quot;           
+##  [5] &quot;support&quot;        &quot;hartland&quot;       &quot;creekside&quot;      &quot;elementary&quot;    
+##  [9] &quot;school&quot;         &quot;provide&quot;        &quot;classroom&quot;      &quot;supplies&quot;      
+## [13] &quot;for&quot;            &quot;benefit&quot;        &quot;of&quot;             &quot;students&quot;      
+## [17] &quot;and&quot;            &quot;teachers&quot;       &quot;paid&quot;           &quot;for&quot;           
+## [21] &quot;educational&quot;    &quot;assemblies&quot;     &quot;and&quot;            &quot;programs&quot;      
+## [25] &quot;for&quot;            &quot;students&quot;       &quot;provided&quot;       &quot;funding&quot;       
+## [29] &quot;for&quot;            &quot;field&quot;          &quot;trip&quot;           &quot;transportation&quot;
+## [33] &quot;benefiting&quot;     &quot;students&quot;</code></pre>
+<pre class="r"><code>mp.corp4 &lt;- tokens_remove(tokens(mp.corp3), c(stopwords(&quot;english&quot;), &quot;nbsp&quot;), padding  = F)
+mp.corp4[2]</code></pre>
+<pre><code>## tokens from 1 document.
+## text2 :
+##  [1] &quot;creekside&quot;      &quot;elementary&quot;     &quot;pto&quot;            &quot;inc&quot;           
+##  [5] &quot;support&quot;        &quot;hartland&quot;       &quot;creekside&quot;      &quot;elementary&quot;    
+##  [9] &quot;school&quot;         &quot;provide&quot;        &quot;classroom&quot;      &quot;supplies&quot;      
+## [13] &quot;benefit&quot;        &quot;students&quot;       &quot;teachers&quot;       &quot;paid&quot;          
+## [17] &quot;educational&quot;    &quot;assemblies&quot;     &quot;programs&quot;       &quot;students&quot;      
+## [21] &quot;provided&quot;       &quot;funding&quot;        &quot;field&quot;          &quot;trip&quot;          
+## [25] &quot;transportation&quot; &quot;benefiting&quot;     &quot;students&quot;</code></pre>
 <p>Now looking at Ngrams. Looking for combinations of 2 and 3 words. I’ve exported the lists that were produces for us all to look over to decide what we want to capture into a dictionary. This code can be updated once we have a larger list.</p>
 <pre class="r"><code>myNgram2 &lt;- tokens(mp.corp4) %&gt;%
   tokens_ngrams(n = 2) %&gt;%
