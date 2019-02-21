@@ -80,7 +80,7 @@ The F1 Score is the 2 * (precision*recall) / (precision+recall) . It is also cal
 
 ## Example
 
-Here are results from an exercise with a dataset with 20 values to demonstrate the calculation of some of the metrics:
+Here are results from an exercise with a dataset with 20 values to demonstrate the calculation of some of the metrics [cite](https://classeval.wordpress.com/introduction/basic-evaluation-measures/):
 
 ![](../assets/images/example-of-confusion-matrix.png)
 
