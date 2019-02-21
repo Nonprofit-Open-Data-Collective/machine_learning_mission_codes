@@ -24,6 +24,10 @@ Philanthropic and Nonprofit Studies
 Professor, UT Austin  
 Sociology  
 
+------
+
+[Nonprofit Open Data Collective](https://nonprofit-open-data-collective.github.io/) Collaborators:
+
 **Nathan Grasse**  
 Associate Professor, Carleton University Canada  
 Nonprofit Finance & Management  
@@ -41,7 +45,6 @@ Nonprofit Studies and Collaborative Governance
 
 **ARNOVA 2019**: We are organizing a panel to highlight methods, approaches, and benchmark predictive model accuracy. Let us know if you are interested in joining!
 
-Check out additional projects from the [Nonprofit Open Data Collective](https://nonprofit-open-data-collective.github.io/).
 
 -----
 
