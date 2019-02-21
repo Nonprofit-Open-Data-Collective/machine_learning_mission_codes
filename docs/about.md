@@ -26,7 +26,7 @@ Sociology
 
 ------
 
-[Nonprofit Open Data Collective](https://nonprofit-open-data-collective.github.io/) Collaborators:
+Nonprofit Open Data Collective collaborators at large:
 
 **Nathan Grasse**  
 Associate Professor, Carleton University Canada  
