@@ -100,12 +100,12 @@ Negative        2        8
 | Error rate                | ERR  | 6 / 20 = 0.3     |
 | Accuracy                  | ACC  | 14 / 20 = 0.7    |
 | Sensitivity               | SN   | 6 / 10 = 0.6     |
-| True positive rate        | TPR  |                  |
-| Recall                    | REC  |                  |
+| True positive rate        | TPR  | 6 / 10 = 0.6     |
+| Recall                    | REC  | 6 / 10 = 0.6     |
 | Specificity               | SP   | 8 / 10 = 0.8     |
-| True negative rate        | TNR  |                  |
+| True negative rate        | TNR  | 8 / 10 = 0.8     |
 | Precision                 | PREC | 6 / 8 =0.75      |
-| Positive predictive value | PPV  |                  |
+| Positive predictive value | PPV  | 6 / 8 =0.75      |
 | False positive rate       | FPR  | 2 / 10 = 0.2     |
 
 
