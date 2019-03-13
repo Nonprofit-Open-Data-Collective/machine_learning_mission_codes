@@ -52,7 +52,7 @@ Nonprofit Studies and Collaborative Governance
 
 Current working papers and published manuscripts on this topic
 
-Lecy, J., Ashley, S. & Santamarina, F. (2018). “Do Nonprofit Missions Vary by the Political Ideology of Supporting Communities? Some Preliminary Results.” *Public Performance and Management Review, forthcoming.*
+Lecy, J., Ashley, S. & Santamarina, F. (2019). “Do Nonprofit Missions Vary by the Political Ideology of Supporting Communities? Some Preliminary Results.” *Public Performance and Management Review.*  [ [PDF](https://github.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/raw/master/docs/papers/Lecy%20Ashley%20Santamarina%20-%20PPMR%202019.pdf) ]
 
 
 
