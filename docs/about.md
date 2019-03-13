@@ -4,25 +4,26 @@ title: "About"
 
 This project represents a collaboration between:
 
+**Eric Van Holm**  
+Assistant Professor, Univ. of New Orleans  
+Entrepreneurship and Public Policy 
+
 **Jesse Lecy**   
 Associate Professor, Arizona State Univ.  
 Nonprofit Studies and Data Science  
 
-**Eric Van Holm**  
-Assistant Professor, Univ. of New Orleans  
-Entrepreneurship and Public Policy  
+**Ji Ma**  
+Assistant Professor, UT Austin LBJ School  
+Philanthropic and Nonprofit Studies  
+
+**Pamela Paxton**   
+Professor, UT Austin  
+Sociology  
 
 **Francisco Santamarina**  
 PhD Student, Univ. of Washington  
 Data Analytics & Nonprofit Capacity  
   
-**Ji Ma**  
-Assistant Professor, UT Austin LBJ School  
-Philanthropic and Nonprofit Studies  
-  
-**Pamela Paxton**   
-Professor, UT Austin  
-Sociology  
 
 ------
 
@@ -36,6 +37,9 @@ Nonprofit Finance & Management
 Associate Professor, Syracuse Unversity  
 Nonprofit Studies and Collaborative Governance  
  
+**David Borenstein, Ph.D.**
+**Heather Kugelmass, Ph.D.**
+Founders of [Open990](https://www.open990.com)
 
 ------
 
