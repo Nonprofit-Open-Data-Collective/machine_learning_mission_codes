@@ -41,7 +41,7 @@ Nonprofit Studies and Collaborative Governance
 
 # Get Involved
 
-**West Coast Data Conference** Plenary on methods using open data. 
+**West Coast Data Conference** Plenary on methods using open data. [ [SCHEDULE](https://westcoastnonprofitdata.org/current-conference/2019-conference-schedule/) ]
 
 **ARNOVA 2019**: We are organizing a panel to highlight methods, approaches, and benchmark predictive model accuracy. Let us know if you are interested in joining!
 
@@ -62,11 +62,10 @@ Lecy, J., Ashley, S. & Santamarina, F. (2019). “Do Nonprofit Missions Vary by 
 
 # Acknowledgements
 
-Funding sources...
-
-Contributions for data...
 
 Aspen Institute for efforts to make data available...
+
+Contributions to creating processed data...
 
 
 
