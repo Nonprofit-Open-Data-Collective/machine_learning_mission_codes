@@ -37,9 +37,9 @@ Nonprofit Finance & Management
 Associate Professor, Syracuse Unversity  
 Nonprofit Studies and Collaborative Governance  
  
-**David Borenstein, Ph.D.**
-**Heather Kugelmass, Ph.D.**
-Founders of [Open990](https://www.open990.com)
+**David Borenstein, Ph.D.**  
+**Heather Kugelmass, Ph.D.**  
+Founders of [Open990](https://www.open990.com)  
 
 ------
 
