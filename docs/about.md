@@ -27,7 +27,7 @@ Data Analytics & Nonprofit Capacity
 
 ------
 
-Nonprofit Open Data Collective collaborators at large:
+[Nonprofit Open Data Collective](www.npdata.info) collaborators at large:
 
 **Nathan Grasse**  
 Associate Professor, Carleton University Canada  
