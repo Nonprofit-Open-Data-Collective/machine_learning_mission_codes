@@ -67,9 +67,9 @@ Lecy, J., Ashley, S. & Santamarina, F. (2019). “Do Nonprofit Missions Vary by 
 # Acknowledgements
 
 
-Aspen Institute for efforts to make data available...
+Aspen Institute for efforts to [advocate for better data](https://www.philanthropy.com/article/House-Bill-Would-Require/243152) and [promote the work](https://www.aspeninstitute.org/blog-posts/open-nonprofit-data-opens-doors-for-researchers/).
 
-Contributions to creating processed data...
+Many people and groups have worked hard to advocate for [IRS 990 e-filing](https://www.urban.org/urban-wire/proposed-nonprofit-form-990-e-filing-requirement-can-benefit-nonprofits-and-their-funders) and [better access to open nonprofit data](https://registry.opendata.aws/irs990/). 
 
 
 
