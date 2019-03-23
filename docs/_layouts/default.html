@@ -27,7 +27,7 @@
   {% unless site.hide_title %}<h1><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>{% endunless %}
   {% if site.navigation %}<nav>{% for path in site.navigation %}{% assign node = site.pages | where: "name", path | first %}<a href="{{ node.url | relative_url }}">{{ node.title }}</a>{% endfor %}</nav>{% endif %}
   <nav>
-    {% if site.icons %}{% for link in site.icons %}<a class="icon" style="font-size: 1.7em;" href="{{ link[1] }}{{page.path}}" target="_blank"><img src = "https://raw.githubusercontent.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/master/docs/assets/images/robot15.png" height = "20px"/></a>{% endfor %}{% endif %}
+    {% if site.icons %}{% for link in site.icons %}<a class="icon" style="font-size: 1.7em;" href="{{ link[1] }}{{page.path}}" target="_blank"><img src = "https://raw.githubusercontent.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/master/docs/assets/images/robot20.png" height = "20"/></a>{% endfor %}{% endif %}
   </nav> 
 </header>
 
