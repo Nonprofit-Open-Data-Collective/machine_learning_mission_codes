@@ -2,6 +2,11 @@
 title: "Data"
 ---
 
+
+<img src = "https://raw.githubusercontent.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/master/docs/assets/images/robot-silhouette-vector-12263514.jpg" style="width:100px;height:100px;"/>
+
+<img src = "https://raw.githubusercontent.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/master/docs/assets/images/robot23.png" style="width:100px;height:100px;"/>
+
 We have both CSV and RDS (R data set) files available in the [DATA](https://github.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/tree/master/DATA) section of this GitHub repository. They can be loaded directly into R as follows.
 
 Read CSV version:
