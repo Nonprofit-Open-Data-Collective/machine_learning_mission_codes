@@ -56,10 +56,10 @@ Description of training dataset...
 These results are mean to provide a baseline level of performance only. They are preliminary results from a draft white paper on this topic (Lecy, Van Holm & Santamarina 2019). See the replication files above. 
 
 
-|--------------------|------------|----------|-------------|-------------| 
-| Schema             | Code       | Accuracy | Sensitivity | Specificity | 
-|--------------------|------------|----------|-------------|-------------| 
-| Tax Exempt Purpose | Charity    | 0.84     | 0.65        | 0.87        | 
+ 
+| Schema             | Code       | Accuracy | Sensitivity | Specificity |  
+|--------------------|------------|----------|-------------|-------------|  
+| Tax Exempt Purpose | Charity    | 0.84     | 0.65        | 0.87        |  
 | Tax Exempt Purpose | Religious  | 0.92     | 0.94        | 0.76        | 
 | Tax Exempt Purpose | Edu        | 0.75     | 0.77        | 0.72        | 
 | Tax Exempt Purpose | Scientific | 0.93     | 0.95        | 0.54        | 
@@ -77,10 +77,11 @@ These results are mean to provide a baseline level of performance only. They are
 | NTEE               | Public     | 0.87     | 0.91        | 0.58        | 
 | NTEE               | Religion   | 0.95     | 0.97        | 0.72        | 
 | NTEE               | Mutual     | 1.00     | 1.00        | 0.29        | 
-| NTEE               | Unknown    | 0.99     | 1.00        | 0.57        | 
-|--------------------|------------|----------|-------------|-------------| 
-| Schema             | Code       | Accuracy | Sensitivity | Specificity | 
-|--------------------|------------|----------|-------------|-------------| 
+| NTEE               | Unknown    | 0.99     | 1.00        | 0.57        |  
+|--------------------|------------|----------|-------------|-------------|  
+| Schema             | Code       | Accuracy | Sensitivity | Specificity |  
+ 
+
 
 
 
