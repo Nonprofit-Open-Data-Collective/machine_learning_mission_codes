@@ -45,7 +45,6 @@ Description of training dataset:
 
 * [Naive Bayes Classifiers](tutorials/Naive_Bayes.html)
 * [Classification Trees](tutorials/Classification_Trees.html)
-* Support Vector Machines
 
 
 
