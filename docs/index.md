@@ -113,7 +113,7 @@ Specificity tells us how often we misclassify cases that do not belong to the co
 | Tax Exempt Purpose            | Sports     | 0.96 | 0.96        | 
 | Tax Exempt Purpose            | Cruelty    | 0.98 | 0.96        | 
 |-------------------------------|------------|------|-------------| 
-| Serves Vulnerable Populations (custom code) |            | 0.87 | -           | 
+| **Custom**                    |  Serves Vulnerable Populations   | 0.87 | -           | 
 |-------------------------------|------------|------|-------------| 
 
 
