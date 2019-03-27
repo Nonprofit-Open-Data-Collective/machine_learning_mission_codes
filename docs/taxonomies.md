@@ -7,9 +7,7 @@ A variety of nonprofit activity codes have been created to describe missions and
 Machine learning techniques are also promising because they allow you to build your own taxonomies. You can then hand-code a small sample of the data, which is used as a training dataset to calibrate your machine learning algorithms ([for example](https://towardsdatascience.com/train-image-recognition-ai-with-5-lines-of-code-8ed0bdd8d9ba)), which can then code a large corpus of mission statements. We encourage you to think about creating your own purpose codes and sharing your approach. 
 
 
-## NTEE Codes 
-
-[ [NCCS: History and Overview](https://nccs.urban.org/project/irs-activity-codes) ]  [ [Codes](https://nccs.urban.org/publication/irs-activity-codes) ]
+## NTEE Codes [ [NCCS: History and Overview](https://nccs.urban.org/project/irs-activity-codes) ]  [ [Codes](https://nccs.urban.org/publication/irs-activity-codes) ]
 
 **Major Groups:**
 
