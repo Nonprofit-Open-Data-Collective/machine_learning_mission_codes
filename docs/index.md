@@ -20,13 +20,13 @@ As such, we are following an open science model where all data and code used to 
 
 # The Training Dataset
 
-Description of training dataset...
+Description of training dataset:
 
 * Nonprofit names
 * Mission fields 
 * Program service accomplishment fields 
 * Taxonomies: NTEE and IRS Purpose Codes
-  * Subset of human-coded activity codes for reliability
+* Comparison to a subset of ICR from 100 human-coded missions
 
 ---------------------------
 
@@ -56,6 +56,13 @@ Description of training dataset...
 These results are mean to provide a baseline level of performance only. They are preliminary results from a draft white paper on this topic (Lecy, Van Holm & Santamarina 2019). See the replication files above. 
 
 
+**Accuracy:** Preliminary results using naive bayes classifiers in the `quanteda` package in R on a sample training dataset. Overall accuracy is high, but that is common when a small portion of the sample belongs to the code category (e.g. a small number of cancer tests come back positive, so they are highly accurate but fairly useless if all tests just predict no cancer). See the [model assessment](https://nonprofit-open-data-collective.github.io/machine_learning_mission_codes/accuracy/) tab for more details. 
+
+Sensitivity tells us how often we are able to correctly identify the codes (true positives in model / all positives in sample).
+
+Specificity tells us how often we misclassify cases that do not belong to the code (true negatives in model / all negatives in sample)
+
+**Charitable Purpose Codes from 1023 Forms**
  
 | Schema             | Code       | Accuracy | Sensitivity | Specificity |  
 |--------------------|------------|----------|-------------|-------------|  
@@ -67,6 +74,12 @@ These results are mean to provide a baseline level of performance only. They are
 | Tax Exempt Purpose | Safety     | 0.99     | 0.99        | 0.15        | 
 | Tax Exempt Purpose | Sports     | 0.96     | 0.98        | 0.65        | 
 | Tax Exempt Purpose | Cruelty    | 0.96     | 0.98        | 0.66        | 
+
+<br>
+
+**Binarized NTEE Codes from Business Master Files**
+
+| Schema             | Code       | Accuracy | Sensitivity | Specificity |  
 |--------------------|------------|----------|-------------|-------------| 
 | NTEE               | Art        | 0.95     | 0.97        | 0.75        | 
 | NTEE               | Ed         | 0.91     | 0.94        | 0.67        | 
@@ -79,11 +92,15 @@ These results are mean to provide a baseline level of performance only. They are
 | NTEE               | Mutual     | 1.00     | 1.00        | 0.29        | 
 | NTEE               | Unknown    | 0.99     | 1.00        | 0.57        |  
 |--------------------|------------|----------|-------------|-------------|  
-| Schema             | Code       | Accuracy | Sensitivity | Specificity |  
- 
+
+
+<br><br>
 
 
 
+**Humans vs. Machines:** Comparing human inter-coder reliability to the predictive accuracy of a machine learning approach (naive bayes supervised learning in the `quanteda` package in R).
+
+<br>
 
 
 | Schema                        | Code       | ICR  | ML Accuracy | 
