@@ -9,7 +9,7 @@ Machine learning techniques are also promising because they allow you to build y
 
 ## NTEE Codes 
 
-[NCCS Overview](https://nccs.urban.org/project/irs-activity-codes)
+[ [NCCS: History and Overview](https://nccs.urban.org/project/irs-activity-codes) ]  [ [Codes](https://nccs.urban.org/publication/irs-activity-codes) ]
 
 **Major Groups:**
 
