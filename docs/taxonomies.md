@@ -34,7 +34,7 @@ Common codes represent activities of organizations, such as research, fundraisin
 * 12 Monetary Support - Multiple Organizations  
 * 19 Nonmonetary Support Not Elsewhere Classified (N.E.C.)  
 
-## IRS 1023-EZ Purpose Codes  [ [Instructions pp 6-7](https://www.irs.gov/pub/irs-pdf/i1023ez.pdf) ]
+## IRS Tax-Exempt Purpose Codes  [ See [Instructions pp 6-7](https://www.irs.gov/pub/irs-pdf/i1023ez.pdf) ]
 
 When applying for tax exempt status from the IRS, nonprofit founders report organizational purpose codes on the 1023 form. These codes differ from the NTEE taxonomies in that each code is binary (yes/no), and they are NOT mutually exclusive, so a nonprofit mission can fulfill one or several of these purposes. Instructions for completing IRS 1023-EZ mission codes pp 6-7 [FORM](https://www.irs.gov/pub/irs-pdf/i1023ez.pdf).
 
