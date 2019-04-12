@@ -80,8 +80,8 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 
 The **F1 Score** is the 2 * (precision*recall) / (precision+recall) . It is also called the F Score or the F Measure. Put another way, the F1 score conveys the balance between the precision and the recall. [cite](https://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)
 
-
 <br><br><br>
+
 
 
 ## Formulas
@@ -97,9 +97,10 @@ The **F1 Score** is the 2 * (precision*recall) / (precision+recall) . It is also
 |  Error                 | ![](../assets/images/err.png)   |
 
 
-<br><br>
-<hr style="width:60%; text-align:center; margin: 0 auto;" >
-<br><br>
+<br><br><br>
+
+
+
 
 ## Example
 
@@ -107,9 +108,6 @@ Here are results from an exercise with a dataset with 20 values to demonstrate t
 
 ![](../assets/images/example-of-confusion-matrix.png)
 
-<br>
-<hr style="border-top:2px dotted lightgray; border-bottom:none; width:60%; text-align:center; margin: 0 auto;" >
-<br>
 
 ```
                  PREDICTED		
@@ -134,10 +132,8 @@ Negative        2        8
 | Positive predictive value | PPV  | 6 / 8 =0.75      |
 | False positive rate       | FPR  | 2 / 10 = 0.2     |
 
+<br><br><br>
 
-<br><br>
-<hr style="width:60%; text-align:center; margin: 0 auto;" >
-<br><br>
 
 
 ## Sample R Output
@@ -163,6 +159,8 @@ Negative        2        8
 ## Balanced Accuracy : 0.781
 ```
 
+
+<br><br>
 
 
 
