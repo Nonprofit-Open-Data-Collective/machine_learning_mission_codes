@@ -41,7 +41,7 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 <br>
 
 
-**Sensitivity** or **Recall** is the number of True Positives divided by the number of True Positives and the number of False Negatives. Put another way it is the number of positive predictions divided by the number of positive class values in the test data. It is also called the True Positive Rate. Sensitivity can be thought of as a measure of a classifiers completeness. A low recall indicates many False Negatives.
+**Sensitivity** or **Recall** is the number of True Positives divided by the number of True Positives and the number of False Negatives. Put another way it is the number of positive predictions divided by the number of positive class values in the test data. It is also called the **True Positive Rate**. Sensitivity can be thought of as a measure of a classifiers completeness. A low recall indicates many False Negatives.
 
 ![](../assets/images/sensitivity.png)  
 
@@ -50,7 +50,7 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 <br>
 
 
-**Specificity** (SP) is calculated as the number of correct negative predictions divided by the total number of negatives. It is also called true negative rate (TNR). 
+**Specificity** (SP) is calculated as the number of correct negative predictions divided by the total number of negatives. It is also called **True Negative Rate** (TNR). 
 
 ![](../assets/images/specificity.png)  
 
@@ -90,8 +90,8 @@ The **F1 Score** is the 2 * (precision*recall) / (precision+recall) . It is also
 
 | METRIC                 |  FORMULA                     |
 |------------------------|------------------------------|
-|  Sensitivity           | ![](../assets/images/sens.png)  |
-|  Specificity           | ![](../assets/images/spec.png)  |
+|  Sensitivity (true positive rate)          | ![](../assets/images/sens.png)  |
+|  Specificity (true negative rate)          | ![](../assets/images/spec.png)  |
 |  Precision             | ![](../assets/images/prec.png)  |
 |  Recall                | ![](../assets/images/sens.png)  |
 |  F1                    | ![](../assets/images/f1.png)  |
