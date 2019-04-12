@@ -28,6 +28,7 @@ The confusion matrix organizes the results into a table where the actual classes
 <br>
 
 --------------------
+<br>
 
 ## Common Metrics  
 
@@ -74,13 +75,13 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 ![](../assets/images/precision.png)  
 
 <br>
-<hr style="border-top:2px dotted lightgray; border-bottom:none; width:60%; text-align:center; margin: 0 auto;" >
+<hr style="width:60%; text-align:center; margin: 0 auto;" >
 <br>
 
 The **F1 Score** is the 2 * (precision*recall) / (precision+recall) . It is also called the F Score or the F Measure. Put another way, the F1 score conveys the balance between the precision and the recall. [cite](https://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)
 
 
---------
+<br><br><br>
 
 
 ## Formulas
@@ -96,10 +97,9 @@ The **F1 Score** is the 2 * (precision*recall) / (precision+recall) . It is also
 |  Error                 | ![](../assets/images/err.png)   |
 
 
-<br>
-
-----------------------------
-
+<br><br>
+<hr style="width:60%; text-align:center; margin: 0 auto;" >
+<br><br>
 
 ## Example
 
@@ -135,10 +135,8 @@ Negative        2        8
 | False positive rate       | FPR  | 2 / 10 = 0.2     |
 
 
-<br>
-
--------------
-
+<br><br>
+<hr style="width:60%; text-align:center; margin: 0 auto;" >
 <br><br>
 
 
