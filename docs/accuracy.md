@@ -33,16 +33,15 @@ The confusion matrix organizes the results into a table where the actual classes
 
 Takaya Saito and Marc Rehmsmeier have developed a great website explaining some commmon fit metrics that we present here. [LINK TO WEBSITE](https://classeval.wordpress.com/introduction/basic-evaluation-measures/)
 
-
+<hr style="height:1px; border-top:dashed; color:lightgray; width:60%; text-align:center; margin: 0 auto;" >
+<br>
 
 
 **Sensitivity** or **Recall** is the number of True Positives divided by the number of True Positives and the number of False Negatives. Put another way it is the number of positive predictions divided by the number of positive class values in the test data. It is also called the True Positive Rate. Sensitivity can be thought of as a measure of a classifiers completeness. A low recall indicates many False Negatives.
 
 ![](../assets/images/sensitivity.png)  
 
-<hr style="border-top:dotted;color:lightgray;margin-left:30;">
-<br>
-<hr style="height:1px; border:dotted; color:lightgray; width:60%; text-align:center; margin: 0 auto;" >
+<hr style="height:1px; border-top:dashed; color:lightgray; width:60%; text-align:center; margin: 0 auto;" >
 <br>
 
 
@@ -51,7 +50,7 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 ![](../assets/images/specificity.png)  
 
 
-<hr style="border-top:2px dotted gray90">
+<hr style="height:1px; border-top:dashed; color:lightgray; width:60%; text-align:center; margin: 0 auto;" >
 <br>
 
 
@@ -62,7 +61,9 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 ![](../assets/images/false-positive-rate.png)  
 
 
+<hr style="height:1px; border-top:dashed; color:lightgray; width:60%; text-align:center; margin: 0 auto;" >
 <br>
+
 
 
 **Precision** is True Positives divided by the number of True Positives and False Positives. Put another way, it is the number of positive predictions divided by the total number of positive class values predicted.
@@ -71,6 +72,7 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 ![](../assets/images/precision.png)  
 
 
+<hr style="height:1px; border-top:dashed; color:lightgray; width:60%; text-align:center; margin: 0 auto;" >
 <br>
 
 
