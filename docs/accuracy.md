@@ -40,9 +40,9 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 
 ![](../assets/images/sensitivity.png)  
 
-<hr style="border-top:dotted;color:lightgray">
+<hr style="border-top:dotted;color:lightgray;margin-left:30;">
 <br>
-<hr style="height:2px; border:dotted; color:gray; width:60%; text-align:center;" >
+<hr style="height:1px; border:dotted; color:lightgray; width:60%; text-align:center; margin: 0 auto;" >
 <br>
 
 
