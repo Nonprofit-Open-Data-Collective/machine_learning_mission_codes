@@ -33,7 +33,8 @@ The confusion matrix organizes the results into a table where the actual classes
 
 Takaya Saito and Marc Rehmsmeier have developed a great website explaining some commmon fit metrics that we present here. [LINK TO WEBSITE](https://classeval.wordpress.com/introduction/basic-evaluation-measures/)
 
-<hr style="height:1px; border-top:dashed; color:lightgray; width:60%; text-align:center; margin: 0 auto;" >
+<br>
+<hr style="border-top:dashed; color:lightgray; width:60%; text-align:center; margin: 0 auto;" >
 <br>
 
 
@@ -51,7 +52,7 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 ![](../assets/images/specificity.png)  
 
 <br>
-<hr style="height:1px; border-top:dashed; color:lightgray; width:60%; text-align:center; margin: 0 auto; border:none;" >
+<hr style="border-top:1px dotted; color:lightgray; width:60%; text-align:center; margin: 0 auto;" >
 <br>
 
 
