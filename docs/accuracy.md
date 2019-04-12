@@ -74,7 +74,7 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 ![](../assets/images/precision.png)  
 
 <br>
-<hr style="height:1px; border-top:dashed; color:lightgray; width:60%; text-align:center; margin: 0 auto;" >
+<hr style="color:lightgray; width:60%; text-align:center; margin: 0 auto;" >
 <br>
 
 
