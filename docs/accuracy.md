@@ -107,7 +107,9 @@ Here are results from an exercise with a dataset with 20 values to demonstrate t
 
 ![](../assets/images/example-of-confusion-matrix.png)
 
--------------
+<br>
+<hr style="border-top:2px dotted lightgray; border-bottom:none; width:60%; text-align:center; margin: 0 auto;" >
+<br>
 
 ```
                  PREDICTED		
@@ -117,6 +119,7 @@ Positive        6        4
 Negative        2        8
 ```
 
+<br>
 
 | METRIC                    | ABBR    | CALCULATIONS |
 |---------------------------|-----------|--------------|
@@ -135,6 +138,9 @@ Negative        2        8
 <br>
 
 -------------
+
+<br><br>
+
 
 ## Sample R Output
 
