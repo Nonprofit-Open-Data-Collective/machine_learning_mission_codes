@@ -40,8 +40,7 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 
 ![](../assets/images/sensitivity.png)  
 
-<br>
-<hr style="border-top:1px dotted">
+<hr style="border-top:2px dotted gray90">
 <br>
 
 
@@ -51,8 +50,7 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 ![](../assets/images/specificity.png)  
 
 
-
-
+<hr style="border-top:2px dotted gray90">
 <br>
 
 
