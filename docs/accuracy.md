@@ -162,7 +162,7 @@ Negative        2        8
 
 
 
-
+<!--
 <style>
 img {
   display: block;
@@ -170,7 +170,7 @@ img {
   margin-right: auto;
 }
 </style>
-
+-->
 
 
 
