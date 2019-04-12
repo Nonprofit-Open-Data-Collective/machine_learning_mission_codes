@@ -55,7 +55,7 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 ![](../assets/images/specificity.png)  
 
 <br>
-<hr style="width:60%; text-align:left; margin: 0 auto;" >
+<hr style="width:60%; text-align:left;" >
 <br>
 
 
