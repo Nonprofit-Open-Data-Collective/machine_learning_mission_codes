@@ -35,8 +35,6 @@ The confusion matrix organizes the results into a table where the actual classes
 Takaya Saito and Marc Rehmsmeier have developed a great website explaining some commmon fit metrics that we present here. [LINK TO WEBSITE](https://classeval.wordpress.com/introduction/basic-evaluation-measures/)
 
 <br>
-<hr style="width:60%; text-align:center; margin: 0 auto;" >
-<br>
 
 
 **Sensitivity** or **Recall** is the number of True Positives divided by the number of True Positives and the number of False Negatives. Put another way it is the number of positive predictions divided by the number of positive class values in the test data. It is also called the True Positive Rate. Sensitivity can be thought of as a measure of a classifiers completeness. A low recall indicates many False Negatives.
