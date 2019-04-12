@@ -41,7 +41,7 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 ![](../assets/images/sensitivity.png)  
 
 <br>
-<hr style="margin-left:50">
+<hr style="border-top:1px dotted">
 <br>
 
 
