@@ -13,6 +13,8 @@ Machine learning approaches to data analysis are often predictive models, not re
 ![](../assets/images/four-outcomes-of-classifier.png)  
 
 
+<br>
+
 **THE CONFUSION MATRIX**
 
 ```
@@ -21,6 +23,8 @@ Actual Group               YES                NO
          YES    TRUE Positives   FALSE Negatives
           NO   FALSE Positives    TRUE Negatives
 ```
+
+<br>
 
 The confusion matrix organizes the results into a table where the actual classes are represented by row values, and the predicted classes are represented by column values. It is a compact way to represent information regarding algorithm performance. 
 
