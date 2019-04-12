@@ -46,7 +46,7 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 ![](../assets/images/sensitivity.png)  
 
 <br>
-<hr style="width:50%; text-align:left; margin: 0 auto;" >
+<hr style="width:50%; text-align:left;" >
 <br>
 
 
@@ -66,7 +66,7 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 ![](../assets/images/false-positive-rate.png)  
 
 <br>
-<hr style="width:60%; text-align:left; margin: 0 auto;" >
+<hr style="width:60%; text-align:left;" >
 <br>
 
 
@@ -77,7 +77,7 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 ![](../assets/images/precision.png)  
 
 <br>
-<hr style="width:60%; text-align:left; margin: 0 auto;" >
+<hr style="width:60%; text-align:left;" >
 <br>
 
 The **F1 Score** is the 2 * (precision*recall) / (precision+recall) . It is also called the F Score or the F Measure. Put another way, the F1 score conveys the balance between the precision and the recall. [cite](https://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)
