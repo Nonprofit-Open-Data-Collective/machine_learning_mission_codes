@@ -163,6 +163,14 @@ Negative        2        8
 
 
 
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
 
 
 
