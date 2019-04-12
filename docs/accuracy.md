@@ -34,7 +34,7 @@ The confusion matrix organizes the results into a table where the actual classes
 Takaya Saito and Marc Rehmsmeier have developed a great website explaining some commmon fit metrics that we present here. [LINK TO WEBSITE](https://classeval.wordpress.com/introduction/basic-evaluation-measures/)
 
 <br>
-<hr style="border-top:dashed; color:lightgray; width:60%; text-align:center; margin: 0 auto;" >
+<hr style="width:60%; text-align:center; margin: 0 auto;" >
 <br>
 
 
@@ -52,7 +52,7 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 ![](../assets/images/specificity.png)  
 
 <br>
-<hr style="border-top:1px dotted lightgray; width:60%; text-align:center; margin: 0 auto;" >
+<hr style="width:60%; text-align:center; margin: 0 auto;" >
 <br>
 
 
@@ -63,7 +63,7 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 ![](../assets/images/false-positive-rate.png)  
 
 <br>
-<hr style="border-top:2px dotted lightgray; border-bottom:none; width:60%; text-align:center; margin: 0 auto;" >
+<hr style="width:60%; text-align:center; margin: 0 auto;" >
 <br>
 
 
@@ -74,9 +74,8 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 ![](../assets/images/precision.png)  
 
 <br>
-<hr style="width:60%; text-align:center; margin: 0 auto; border:none;" >
+<hr style="border-top:2px dotted lightgray; border-bottom:none; width:60%; text-align:center; margin: 0 auto;" >
 <br>
-
 
 The **F1 Score** is the 2 * (precision*recall) / (precision+recall) . It is also called the F Score or the F Measure. Put another way, the F1 score conveys the balance between the precision and the recall. [cite](https://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)
 
