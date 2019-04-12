@@ -40,9 +40,10 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 
 ![](../assets/images/sensitivity.png)  
 
-<hr style="border-top:2px dotted gray90">
+<hr style="border-top:dotted;color:lightgray">
 <br>
-
+<hr style="height:2px; border:dotted; color:gray; width:60%; text-align:center;" >
+<br>
 
 
 **Specificity** (SP) is calculated as the number of correct negative predictions divided by the total number of negatives. It is also called true negative rate (TNR). 
