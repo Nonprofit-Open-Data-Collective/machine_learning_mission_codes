@@ -43,7 +43,7 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 ![](../assets/images/sensitivity.png)  
 
 <br>
-<hr style="border-top:1px dashed lightgray; width:60%; text-align:center; margin: 0 auto;" >
+<hr style="width:60%; text-align:center; margin: 0 auto;" >
 <br>
 
 
@@ -74,7 +74,7 @@ Takaya Saito and Marc Rehmsmeier have developed a great website explaining some 
 ![](../assets/images/precision.png)  
 
 <br>
-<hr style="color:lightgray; width:60%; text-align:center; margin: 0 auto;" >
+<hr style="width:60%; text-align:center; margin: 0 auto; border:none;" >
 <br>
 
 
