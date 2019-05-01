@@ -4,10 +4,6 @@ title: "About"
 
 This project represents a collaboration between:
 
-**Eric Van Holm**  
-Assistant Professor, Univ. of New Orleans  
-Entrepreneurship and Public Policy 
-
 **Jesse Lecy**   
 Associate Professor, Arizona State Univ.  
 Nonprofit Studies and Data Science  
@@ -24,6 +20,10 @@ Sociology
 PhD Student, Univ. of Washington  
 Data Analytics & Nonprofit Capacity  
   
+**Eric Van Holm**  
+Assistant Professor, Univ. of New Orleans  
+Entrepreneurship and Public Policy 
+
 
 ------
 
