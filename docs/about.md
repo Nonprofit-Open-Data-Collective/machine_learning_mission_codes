@@ -67,11 +67,10 @@ Lecy, J., Ashley, S. & Santamarina, F. (2019). “Do Nonprofit Missions Vary by 
 # Acknowledgements
 
 
-Aspen Institute for efforts to [advocate for better data](https://www.philanthropy.com/article/House-Bill-Would-Require/243152) and [promote the work](https://www.aspeninstitute.org/blog-posts/open-nonprofit-data-opens-doors-for-researchers/).
+The Aspen Institute has been instrumental for their efforts to [advocate for better data](https://www.philanthropy.com/article/House-Bill-Would-Require/243152) and [promote the work of open data](https://www.aspeninstitute.org/blog-posts/open-nonprofit-data-opens-doors-for-researchers/).
 
-Many people and groups have worked hard to advocate for [IRS 990 e-filing](https://www.urban.org/urban-wire/proposed-nonprofit-form-990-e-filing-requirement-can-benefit-nonprofits-and-their-funders) and [new data sources](https://www.urban.org/urban-wire/filling-gaps-nonprofit-data) and [new partnerships](https://registry.opendata.aws/irs990/). 
+Many people and groups have worked hard to make [IRS 990 e-filing](https://www.urban.org/urban-wire/proposed-nonprofit-form-990-e-filing-requirement-can-benefit-nonprofits-and-their-funders) possible, [new data sources](https://www.urban.org/urban-wire/filling-gaps-nonprofit-data) accessible, and [new partnerships](https://registry.opendata.aws/irs990/) productive. 
 
-This work would not be possible without the foundations they have laid. 
 
 
 
