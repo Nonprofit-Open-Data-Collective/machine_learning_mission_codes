@@ -34,7 +34,8 @@ Description of training dataset:
 
 **Preprocessing Text Data** 
 
-* [Preprocessing Steps](tutorials/Preprocessing.html) 
+* [Preprocessing Steps](tutorials/Preprocessing.html)
+* [Feature Engineering overview](https://youtu.be/9rBc3rTsJsY)
 
 
 **Text Analysis Approaches**
