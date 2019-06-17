@@ -47,7 +47,7 @@ Description of training dataset:
 * [Naive Bayes Classifiers](tutorials/Naive_Bayes.html)
 * [Classification Trees](tutorials/Classification_Trees.html)
 
-
+For reference on some methods mentioned here, try this [nice blog on machine learning](https://vas3k.com/blog/machine_learning/).
 
 -------------------------
 
