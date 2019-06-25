@@ -85,6 +85,9 @@ Other?
 
 ## References
 
+Berlan, D. (2018). Understanding nonprofit missions as dynamic and interpretative conceptions.
+Nonprofit Management & Leadership, 28(3), 413-422.
+
 Barman, Emily. (2013). Classificatory Struggles in the Nonprofit Sector: The Formation of the National Taxonomy of Exempt Entities, 1969—1987. Social Science History. 37. 103-141. 10.2307/23361114.
 
 Boris, E., & Mosher-Williams, R. (1998). Nonprofit advocacy organizations: Assessing the definitions, classifications, and data. Nonprofit and Voluntary Sector Quarterly, 27(4), 488-506. 
