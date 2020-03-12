@@ -73,13 +73,14 @@ IRR scores...
 
 # Additional Taxonomies
 
-ICNPO Codes
+Some examples of alternative taxonomies that exist: 
 
-Guidestar Codes
+* ICNPO Codes
+* Candid (formerly Guidestar) Mission Codes
+* Foundation Center Grant Codes
+* CLASSIEfier [ [LINK](https://www.ourcommunity.com.au/general/general_article.jsp?articleid=7593) ] 
 
-Foundation Center Grant Codes
 
-Other?
 
 
 
