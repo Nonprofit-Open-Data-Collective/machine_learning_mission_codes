@@ -41,15 +41,6 @@ Nonprofit Studies and Collaborative Governance
 **Heather Kugelmass, Ph.D.**  
 Founders of [Open990](https://www.open990.com)  
 
-------
-
-# Get Involved
-
-**West Coast Data Conference** Plenary on methods using open data. [ [SCHEDULE](https://westcoastnonprofitdata.org/current-conference/2019-conference-schedule/) ]
-
-**ARNOVA 2019**: We are organizing a panel to highlight methods, approaches, and benchmark predictive model accuracy. Let us know if you are interested in joining!
-
-
 -----
 
 # Current Manuscripts
