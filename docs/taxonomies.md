@@ -75,9 +75,9 @@ IRR scores...
 
 Some examples of alternative taxonomies that exist: 
 
-* ICNPO Codes
-* Candid (formerly Guidestar) Mission Codes
-* Foundation Center Grant Codes
+* ICNPO Codes [ [Overview](http://asauk.org.uk/wp-content/uploads/2018/02/CNP_WP19_1996.pdf) ]  
+* Candid (formerly Guidestar) [Philanthropy Classification System](https://taxonomy.candid.org/resources/downloads) 
+* Foundation Center Grant Taxonomy ([Subjects under the new PCS](https://taxonomy.candid.org/subjects/))  
 * CLASSIEfier [ [LINK](https://www.ourcommunity.com.au/general/general_article.jsp?articleid=7593) ] 
 
 
