@@ -5,6 +5,16 @@
 <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 <meta name="author" content="{{ page.author | default: site.author | escape}}">
 <meta name="generator" content="Jekyll v{{ jekyll.version }}">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3YPJ46R91R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-3YPJ46R91R');
+</script>
+
 <link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/master/docs/assets/images/deathstar.png">  
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 <link rel="stylesheet" href="{{ "/assets/css/index.css" | relative_url }}">
