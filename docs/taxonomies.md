@@ -80,7 +80,7 @@ Some examples of alternative taxonomies that exist:
 * Foundation Center Grant Taxonomy ([Subjects under the new PCS](https://taxonomy.candid.org/subjects/))  
 * CLASSIEfier [ [LINK](https://www.ourcommunity.com.au/general/general_article.jsp?articleid=7593) ] 
 
-The NTEE replaced the original IRS Activity Code taxonomy that was used until. NCCS developed an [IRS Activity Code to NTEE Crosswalk](https://github.com/Nonprofit-Open-Data-Collective/irs-exempt-org-business-master-file#activity-codes) that was used to standardize codes for existing nonprofits.  
+The NTEE replaced the original IRS Activity Code taxonomy that was used until 1995. NCCS developed an [IRS Activity Code to NTEE Crosswalk](https://github.com/Nonprofit-Open-Data-Collective/irs-exempt-org-business-master-file#activity-codes) that was used to standardize codes for existing nonprofits.  
 
 
 
