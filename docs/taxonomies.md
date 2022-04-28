@@ -76,11 +76,11 @@ IRR scores...
 Some examples of alternative taxonomies that exist: 
 
 * ICNPO Codes [ [Overview](http://asauk.org.uk/wp-content/uploads/2018/02/CNP_WP19_1996.pdf) ]  
-* Candid (formerly Guidestar) [Philanthropy Classification System](https://taxonomy.candid.org/resources/downloads) 
+* Candid (formerly Guidestar) [Philanthropy Classification System (PCS)](https://taxonomy.candid.org/resources/downloads) 
 * Foundation Center Grant Taxonomy ([Subjects under the new PCS](https://taxonomy.candid.org/subjects/))  
 * CLASSIEfier [ [LINK](https://www.ourcommunity.com.au/general/general_article.jsp?articleid=7593) ] 
 
-
+The NTEE replaced the original IRS Activity Code taxonomy that was used until. NCCS developed an [IRS Activity Code to NTEE Crosswalk](https://github.com/Nonprofit-Open-Data-Collective/irs-exempt-org-business-master-file#activity-codes) that was used to standardize codes for existing nonprofits.  
 
 
 
