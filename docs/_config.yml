@@ -18,7 +18,7 @@ navigation:                  # show navigation links in the header
   - index.md
   - taxonomies.md
   - data.md
-  - packages.md	
+  # - packages.md	
   - accuracy.md
   - about.md
 
